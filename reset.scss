@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: sans-serif;
+  background: #41586b;
+}
+button{
+  cursor: pointer;
+  border: none;
+}
+input{
+  padding: 10px 65px;
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+

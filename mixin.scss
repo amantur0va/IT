@@ -1,0 +1,107 @@
+@mixin df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin evenly {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin start {
+  display: flex;
+  align-items: flex-start;
+}
+
+@mixin h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+@mixin h2 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+@mixin h3 {
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px 0;
+  color: #FFFFFF;
+}
+
+@mixin h4 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+@mixin h5 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+@mixin p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+@mixin a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 0 15px;
+  transition: .4s;
+  &:hover {
+    transform: scale(1.1);
+    text-decoration-line: underline;
+  }
+}
+
+@mixin btn {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  background: #034078;
+  border-radius: 5px;
+  transition: .4s;
+  &:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: #034078;
+    border: 1px solid #000;
+  }
+}
+
+@mixin flex{
+  display: flex;
+  align-items: center;
+}
+@mixin ion {
+  color: #FFFFFF;
+
+}
