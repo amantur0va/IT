@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: #164565;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  padding: 10px 65px;
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+#out .out--block {
+  padding-top: 90px;
+}
+#out .out--block a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 0 15px;
+  transition: 0.4s;
+  color: #A5A5A5;
+}
+#out .out--block a:hover {
+  transform: scale(1.1);
+  text-decoration-line: underline;
+}
+#out .out--title {
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#out .out--title__text h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#out .out--title__text p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
+  padding-top: 5%;
+  text-align: center;
+}
+#out .out--img {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 5%;
+}
+#out .out--img__image img {
+  width: 90%;
+}
+
+#certificate .certificate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#certificate .certificate--block {
+  padding-top: 10%;
+}
+#certificate .certificate--block h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#certificate .certificate--block p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
+  text-align: center;
+}
+#certificate .certificate--title {
+  width: 679px;
+  height: 440.64px;
+  background: #fff;
+}
+#certificate .certificate--title img {
+  width: 100%;
+}
+#certificate .certificate--title hr {
+  margin: 55px;
+  border: 0.346429px solid #000000;
+}
+#certificate .certificate--title__text h1 {
+  font-weight: 400;
+  font-size: 33.2571px;
+  text-align: center;
+  color: #000000;
+}
+#certificate .certificate--title__text p {
+  font-weight: 500;
+  font-size: 12.4714px;
+  text-align: center;
+  color: #000000;
+}
+#certificate .certificate--title__text--course {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
+  color: #000000;
+  text-align: center;
+}
+#certificate .certificate--title__text--course hr {
+  margin-right: 66%;
+  border: 0.346429px solid #000000;
+}
+
+#students .students--block h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  padding: 10%;
+  text-align: center;
+}
+#students .students .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#students .students .swiper-slide {
+  padding: 20px 0;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+#students .students .swiper-slide h1 {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+#students .students .swiper-slide p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#students .students .swiper-slide img {
+  display: block;
+  width: 34%;
+  padding-left: 28%;
+}
+
+#name .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10% 0;
+  align-items: flex-start;
+}
+#name .name--there h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  font-size: 36px;
+}
+#name .name--there p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
+  font-size: 16px;
+}
+#name .name--number button {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  background: #034078;
+  border-radius: 5px;
+  transition: 0.4s;
+  margin-top: 8%;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+}
+#name .name--number button:hover {
+  transform: scale(1.1);
+  background: transparent;
+  color: #034078;
+  border: 1px solid #000;
+}
+#name .name--number__tell h3 {
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px 0;
+  color: #FFFFFF;
+  color: #B5B5B5;
+  margin-bottom: -8px;
+}
+#name .name--number__tell input {
+  padding: 20px 119px;
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=stylethree.css.map */
