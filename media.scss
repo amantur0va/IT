@@ -20,6 +20,27 @@
 
 @media (max-width: 1024px) {
 
+  #platform {
+    .platform {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #platform {
+    .platform {
+      &--block {
+        p {
+          font-size: 18px;
+        }
+        h1{
+          font-size: 45px;
+        }
+      }
+
+
   #master {
     .master {
       &--java {
@@ -106,6 +127,7 @@
     .platform {
       flex-direction: column;
       align-items: center;
+
     }
   }
 }
@@ -128,6 +150,15 @@
 
 
 @media (max-width: 820px) {
+
+  #footer {
+    .footer {
+      flex-wrap: wrap;
+    }
+  }
+  #zayavka {
+
+
   #course {
     .course {
       display: flex;
@@ -172,6 +203,7 @@
     }
   }
   #zayavka {
+
 
     .zayavka {
       &--cap {
@@ -229,6 +261,7 @@
           input {
             padding: 15px 75px;
 
+
           }
 
   #platform {
@@ -243,6 +276,36 @@
       }
     }
   }
+
+  #zayavka {
+    .zayavka {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  #header {
+    .hamburger-menu {
+      display: block;
+    }
+    .header {
+      &--logo {
+        &__text {
+          display: none;
+        }
+
+      }
+
+      &--btn {
+        display: none;
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 650px) {
+
   #level {
     .level {
       &--group {
@@ -302,6 +365,7 @@
 
 
 @media (max-width: 650px) {
+
   #follow {
     .follow {
       &--me {
@@ -337,6 +401,25 @@
         .img2 {
           display: none;
         }
+
+
+        .img3 {
+          display: none;
+        }
+
+        .img4 {
+          display: none;
+        }
+      }
+    }
+  }
+  #accor {
+    .accor {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
 
         .img3 {
           display: none;
@@ -398,7 +481,85 @@
   }
 
 
+
+        h1 {
+          font-size: 26px;
+        }
+      }
+    }
+  }
 }
+
+
+@media (max-width: 480px)  {
+  #follow {
+    .follow {
+      &--me {
+        &__just {
+          h2 {
+            font-size: 22px;
+            padding-left: 10px;
+          }
+
+          p {
+
+            font-size: 15px;
+          }
+        }
+
+        &__hidden {
+          h4 {
+            padding-left: 37px;
+          }
+        }
+      }
+    }
+  }
+  #platform {
+    .platform {
+      &--block {
+        h1 {
+          font-size: 21px;
+          line-height: 2;
+        }
+
+        p {
+          font-size: 11px;
+          line-height: 2;
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      flex-direction: column;
+
+      &--our {
+        display: flex;
+      }
+
+      &--block {
+        padding: 10px 0;
+
+        h2 {
+          font-size: 17px;
+        }
+
+        a {
+          font-size: 14px;
+        }
+
+        h5 {
+          font-size: 14px;
+        }
+      }
+
+      &--block1 {
+        display: none;
+      }
+
+      &--block4 {
+        display: none;
 
 @media (max-width: 480px) {
   #master {
@@ -429,6 +590,7 @@
         h1 {
           font-size: 26px;
         }
+
       }
     }
   }
@@ -529,6 +691,49 @@
   }
 }
 @media (max-width: 420px) {
+
+  #zayavka {
+    .zayavka {
+      &--slash {
+        h1 {
+          font-size: 33px;
+        }
+      }
+    }
+  }
+  #follow {
+    .follow {
+      &--me {
+        &__just {
+          h2 {
+            font-size: 20px;
+            padding-left: 10px;
+          }
+
+          p {
+            font-size: 12px;
+            padding-left: 10px;
+          }
+        }
+
+        &__hidden {
+          h4 {
+            padding-left: 37px;
+
+          }
+        }
+      }
+    }
+
+    #platform {
+      .platform {
+        &--block {
+          h1 {
+            font-size: 25px;
+            line-height: 2;
+          }
+
+
   #master {
     .master {
       &--java {
@@ -640,6 +845,7 @@
             line-height: 2;
           }
 
+
           p {
             font-size: 10px;
             line-height: 2;
@@ -672,6 +878,7 @@
         &__fly {
           width: 100%;
 
+
           img {
             width: 100%;
           }
@@ -700,6 +907,36 @@
 
           }
 
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  #follow {
+    .follow {
+      &--me {
+        &__just {
+          h2 {
+            font-size: 19px;
+            padding-left: 10px;
+          }
+
+          p {
+            font-size: 12px;
+            padding-left: 10px;
+          }
+        }
+
+        &__hidden {
+          h4 {
+            padding-left: 37px;
+
+          }
+
+
         }
       }
     }
@@ -707,6 +944,16 @@
 }
 
 @media (max-width: 375px) {
+
+  #zayavka {
+    .zayavka {
+      &--slash {
+        p {
+          font-size: 14px;
+        }
+      }
+
+
   #school {
     .school {
       &--mission {
@@ -853,6 +1100,68 @@
 }
 
 @media (max-width: 320px) {
+
+   #zayavka {
+    .zayavka {
+      &--slash {
+        p {
+          font-size: 13px;
+        }
+      }
+
+      &--cap {
+        &__kaif {
+          input {
+            padding: 15px 53px;
+          }
+        }
+      }
+    }
+  }
+  #accor {
+    .accor {
+      &--photo {
+        h1 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+  #follow {
+    .follow {
+      &--me {
+        &__just {
+          h2 {
+            font-size: 15px;
+            padding-left: 10px;
+          }
+
+          p {
+            font-size: 9px;
+            padding-left: 10px;
+          }
+        }
+
+        &__hidden {
+          h4 {
+            padding-left: 37px;
+
+          }
+
+        }
+      }
+    }
+  }
+  #platform {
+    .platform {
+      &--block {
+        h1 {
+          font-size: 22px;
+          line-height: 1.5;
+        }
+
+        p {
+
   #master {
     .master {
       h1 {
@@ -959,6 +1268,7 @@
         }
 
         p {
+
           font-size: 10px;
           line-height: 1.5;
         }
