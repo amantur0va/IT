@@ -372,6 +372,10 @@ input {
     line-height: 1.5;
   }
 }
+.scroll {
+  overflow: hidden;
+}
+
 #header {
   background: rgba(177, 176, 197, 0.11);
   position: fixed;

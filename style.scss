@@ -3,6 +3,9 @@
 @import "reset";
 @import "mediaone";
 
+.scroll{
+  overflow: hidden;
+}
 
 #header {
   .hamburger-menu {
