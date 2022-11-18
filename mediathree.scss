@@ -1,0 +1,231 @@
+@media (max-width: 820px) {
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 650px) {
+  #out {
+    .out {
+      &--title {
+        &__text {
+          p {
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+  }
+  #certificate {
+    .certificate {
+      &--title {
+        width: 498px !important;
+      }
+    }
+  }
+  #name {
+    .name {
+      flex-direction: column;
+    }
+  }
+
+}
+
+@media (max-width: 578px) {
+
+
+}
+
+@media (max-width: 480px) {
+  #out {
+    .out {
+      &--title {
+        &__text {
+          p {
+            font-size: 10px !important;
+          }
+
+        }
+      }
+    }
+  }
+  #certificate {
+    .certificate {
+      &--title {
+
+        width: 413px !important;
+        height: 356.64px !important;
+
+        img {
+          width: 100%;
+          height: 86px;
+        }
+      }
+    }
+  }
+
+  #students {
+    .students {
+      &--block {
+        h1 {
+          font-size: 39px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  #out {
+    .out {
+      &--title {
+        &__text {
+          h1 {
+            font-size: 29px !important;
+          }
+
+          p {
+            font-size: 8px !important;
+          }
+        }
+      }
+    }
+  }
+  #certificate {
+    .certificate {
+      &--title {
+        width: 386px !important;
+        height: 369.64px !important;
+
+        img {
+          height: 81px;
+        }
+      }
+
+    }
+  }
+  #name {
+    .name {
+      &--number {
+        &__tell {
+          input {
+
+            padding: 17px 92px !important;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 400px) {
+  #certificate {
+    .certificate {
+      &--title {
+        width: 344px !important;
+        height: 352.64px !important;
+
+        img {
+          height: 72px;
+        }
+      }
+    }
+  }
+
+  #students {
+    .students {
+      &--block {
+        H1 {
+          font-size: 32px !important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 360px) {
+  #certificate {
+    .certificate {
+      &--title {
+        width: 314px !important;
+        height: 347.64px !important;
+
+        img {
+          height: 69px;
+        }
+      }
+    }
+
+  }
+
+  #name {
+    .name {
+      &--number {
+        &__tell {
+          input{
+            padding: 16px 62px !important;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@media (max-width: 320px) {
+  #out{
+    .out{
+      &--title{
+        &__text{
+          p{
+            font-size: 5px !important;
+          }
+        }
+      }
+    }
+  }
+
+  #certificate{
+    .certificate{
+      &--block{
+        h1{
+          font-size: 25px!important;
+        }
+      }
+      &--title{
+        width: 273px !important;
+        height: 316.64px !important;
+        img{
+          height: 57px;
+        }
+        &__text{
+          h1{
+            font-size: 22.2571px!important;
+          }
+
+        }
+      }
+    }
+  }
+  #students{
+    .students{
+      &--block{
+        h1{
+          font-size: 28px !important;
+        }
+      }
+    }
+  }
+
+}
+
