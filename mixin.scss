@@ -105,3 +105,18 @@
   color: #FFFFFF;
 
 }
+@mixin btn2 {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  background: #034078;
+  border-radius: 5px;
+  transition: .4s;
+  &:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: #034078;
+    border: none;
+  }
+}
