@@ -1,4 +1,3 @@
-
 @media (max-width: 1440px) {
   .container {
     width: 90%;
@@ -102,30 +101,7 @@
   }
 
 
-  #platform {
-    .platform {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
 }
-
-@media (max-width: 992px) {
-  #platform {
-    .platform {
-      &--block {
-        p {
-          font-size: 18px;
-        }
-        h1{
-          font-size: 45px;
-        }
-      }
-    }
-  }
-
-}
-
 
 @media (max-width: 820px) {
   #course {
@@ -165,24 +141,6 @@
 
     }
   }
-
-  #footer {
-    .footer {
-      flex-wrap: wrap;
-    }
-  }
-  #zayavka {
-
-    .zayavka {
-      &--cap {
-        &__kaif {
-          input {
-            padding: 15px 95px;
-          }
-        }
-      }
-    }
-  }
   #accor {
     .accor {
       &--photo {
@@ -192,18 +150,6 @@
 
         img {
           width: 43%;
-        }
-      }
-    }
-  }
-  #platform {
-    .platform {
-      &--block {
-        p {
-          font-size: 18px;
-        }
-        h1{
-          font-size: 37px;
         }
       }
     }
@@ -230,15 +176,6 @@
             padding: 15px 75px;
 
           }
-
-  #platform {
-    .platform {
-      &--block {
-        p {
-          font-size: 16px;
-        }
-        h1{
-          font-size: 35px;
         }
       }
     }
@@ -273,112 +210,45 @@
         &__tell {
           input {
             padding: 15px 34px;
-  #zayavka {
-    .zayavka {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  #header {
-    .hamburger-menu {
-      display: block;
-    }
-    .header {
-      &--logo {
-        &__text {
-          display: none;
-        }
-
-      }
-
-      &--btn {
-        display: none;
-      }
-    }
-  }
-
-
-  }
-
-
-@media (max-width: 650px) {
-  #follow {
-    .follow {
-      &--me {
-        flex-direction: column;
-      }
-
-      &__hidden {
-        h4 {
-          padding-left: 37px;
-        }
-      }
-    }
-  }
-  #platform {
-    .platform {
-      &--block{
-        h1{
-          font-size: 29px;
-        }
-        p{
-          font-size: 15px;
-        }
-      }
-      &--photo {
-        .star {
-          width: 90%;
-        }
-
-        .img1 {
-          display: none;
-        }
-
-        .img2 {
-          display: none;
-        }
-
-        .img3 {
-          display: none;
-        }
-
-        .img4 {
-          display: none;
-        }
-      }
-    }
-  }
-  #accor {
-    .accor {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-
           }
         }
       }
     }
   }
+  #master {
+    .master {
+      &--java {
+        width: 410px !important;
+
+        &__block {
+          p {
+            font-size: 16px !important;
+          }
+
+          h2 {
+            font-size: 13px !important;
+
+          }
+        }
+
+      }
+    }
+  }
+
 }
 
 @media (max-width: 578px) {
-  #platform {
-    .platform {
-      &--block {
-        p {
-          font-size: 14px;
-        }
 
   #master {
     .master {
       &--java {
-        width: 323px;
+        width: 323px !important;
       }
 
 
     }
   }
+
   #level {
     .level {
       &--group {
@@ -389,6 +259,7 @@
       }
     }
   }
+
   #name {
     .name {
       display: flex;
@@ -401,10 +272,31 @@
 }
 
 @media (max-width: 480px) {
+  #level {
+    .level {
+      &--group {
+        p {
+          font-size: 12px;
+
+        }
+      }
+    }
+
+  }
+  #we {
+    .we {
+      h1 {
+        font-size: 33px;
+
+      }
+
+    }
+  }
   #master {
     .master {
       &--java {
-        width: 218px;
+        width: 218px !important;
+        padding: 30px 47px !important;
 
         &__block {
           p {
@@ -426,121 +318,29 @@
       &--image {
         img {
           width: 90%;
-        h1 {
-          font-size: 26px;
+
+          h1 {
+            font-size: 26px;
+          }
         }
       }
     }
   }
 }
 
-@media (max-width: 480px) {
-  #follow {
-    .follow {
-      &--me {
-        &__just {
-          h2 {
-            font-size: 22px;
-            padding-left: 10px;
-          }
-
-          p {
-
-            font-size: 15px;
-          }
-        }
-
-        &__hidden {
-          h4 {
-            padding-left: 37px;
-          }
-        }
-      }
-    }
-  }
-  #platform {
-    .platform {
-      &--block {
-        h1 {
-          font-size: 21px;
-          line-height: 2;
-        }
-
-        p {
-          font-size: 11px;
-          line-height: 2;
-        }
-      }
-    }
-  }
-  #level {
-    .level {
-      &--group {
-        p {
-          font-size: 12px;
-
-        }
-      }
-    }
-
-  }
-
-  #we {
-    .we {
-      h1 {
-        font-size: 33px;
-
-      }
-
-    }
-  }
-  #footer {
-    .footer {
-      flex-direction: column;
-
-      &--our {
-        display: flex;
-      }
-
-      &--block {
-        padding: 10px 0;
-
-        h2 {
-          font-size: 17px;
-        }
-
-        a {
-          font-size: 14px;
-        }
-
-        h5 {
-          font-size: 14px;
-        }
-      }
-
-      &--block1 {
-        display: none;
-      }
-
-      &--block4 {
-        display: none;
-      }
-    }
-  }
-}
 @media (max-width: 420px) {
   #master {
     .master {
       &--java {
-        width: 168px;
+        width: 168px !important;
 
         &__block {
           h2 {
-            font-size: 12px;
+            font-size: 12px !important;
           }
 
           p {
-            font-size: 9px;
+            font-size: 9px !important;
           }
 
         }
@@ -593,125 +393,26 @@
         }
 
         p {
-          font-size: 15px;
+          font-size: 15px !important;
         }
       }
     }
   }
 
-  #zayavka {
-    .zayavka {
-      &--slash {
-        h1 {
-          font-size: 33px;
-        }
-      }
-    }
-  }
-  #follow {
-    .follow {
-      &--me {
-        &__just {
-          h2 {
-            font-size: 20px;
-            padding-left: 10px;
-          }
 
-          p {
-            font-size: 12px;
-            padding-left: 10px;
-          }
-        }
-
-        &__hidden {
-          h4 {
-            padding-left: 37px;
-
-          }
-        }
-      }
-    }
-
-    #platform {
-      .platform {
-        &--block {
-          h1 {
-            font-size: 25px;
-            line-height: 2;
-          }
-
-          p {
-            font-size: 10px;
-            line-height: 2;
-          }
-        }
-      }
-    }
-  }
 }
 
 @media (max-width: 400px) {
-  #platform {
-    .platform {
-      &--block {
-        h1 {
-          font-size: 25px;
-          line-height: 2;
-        }
-
-        p {
-          font-size: 12px;
-          line-height: 2;
-        }
-      }
+  #master {
+    .master h1 {
+      font-size: 39px !important;
     }
   }
-  #latest {
-    .latest {
-      &--article {
-        &__fly {
-          width: 100%;
-
-          img {
-            width: 100%;
-          }
-        }
-      }
-    }
-  }
-  #follow {
-    .follow {
-      &--me {
-        &__just {
-          h2 {
-            font-size: 19px;
-            padding-left: 10px;
-          }
-
-          p {
-            font-size: 12px;
-            padding-left: 10px;
-          }
-        }
-
-        &__hidden {
-          h4 {
-            padding-left: 37px;
-
-          }
-
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 375px) {
   #school {
     .school {
       &--mission {
         p {
-          font-size: 13px;
+          font-size: 14px !important;
 
         }
       }
@@ -721,80 +422,72 @@
     .level {
       &--group {
         h1 {
-          font-size: 38px;
+          font-size: 41px !important;
 
         }
 
         p {
-          font-size: 9px;
+          font-size: 10px !important;
+        }
+      }
+    }
+  }
+  #we {
+    .we {
+      h1 {
+        font-size: 29px !important;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 375px) {
+  #school {
+    .school {
+      &--mission {
+        h1 {
+          font-size: 38px !important;
+        }
+
+        p {
+          font-size: 13px !important;
+
+        }
+      }
+    }
+  }
+  #level {
+    .level {
+      &--group {
+        h1 {
+          font-size: 38px !important;
+
+        }
+
+        p {
+          font-size: 9px !important;
 
         }
       }
 
       &--be {
+        width: 300px !important;
+
         &___become {
           display: flex;
           align-items: center;
-          width: 300px;
           flex-direction: column;
         }
       }
     }
 
-  #zayavka {
-    .zayavka {
-      &--slash {
-        p {
-          font-size: 14px;
-        }
-      }
 
-      &--cap {
-        &__kaif {
-          input {
-            padding: 15px 74px;
-          }
-        }
-      }
-    }
   }
-  #follow {
-    .follow {
-      &--me {
-        &__just {
-          h2 {
-            font-size: 17px;
-            padding-left: 10px;
-          }
-
-          p {
-            font-size: 11px;
-            padding-left: 10px;
-          }
-        }
-
-        &__hidden {
-          h4 {
-            padding-left: 37px;
-
-          }
-
-        }
-      }
-    }
-  }
-  #platform {
-    .platform {
-      &--block {
-        h1 {
-          font-size: 25px;
-          line-height: 1.5;
-        }
-
-        p {
-          font-size: 11px;
-          line-height: 1.5;
-        }
+  #we{
+    .we{
+      h1 {
+        font-size: 27px !important;
       }
     }
   }
@@ -817,7 +510,7 @@
       &--java {
         &__blockP {
           h2 {
-            font-size: 11px;
+            font-size: 11px !important;
 
           }
         }
@@ -856,22 +549,22 @@
   #master {
     .master {
       h1 {
-        font-size: 37px;
+        font-size: 37px !important;
       }
 
       &--java {
-        width: 136px;
+        width: 136px !important;
         padding: 30px 38px;
 
 
         &__block {
           p {
-            font-size: 9px;
+            font-size: 9px !important;
             font-weight: 700;
           }
 
           h2 {
-            font-size: 9px;
+            font-size: 9px !important;
           }
         }
       }
@@ -882,13 +575,13 @@
     .course {
       &--dev {
         h1 {
-          font-size: 20px;
+          font-size: 20px !important;
 
         }
 
 
         p {
-          font-size: 12px;
+          font-size: 12px !important;
         }
       }
     }
@@ -896,125 +589,58 @@
   }
   #level {
     .level {
-      &--group {
-        h1 {
-          font-size: 34px;
-  #zayavka {
-    .zayavka {
-      &--slash {
-        p {
-          font-size: 13px;
-        }
-      }
-
-      &--cap {
-        &__kaif {
-          input {
-            padding: 15px 53px;
-          }
-        }
-      }
-    }
-  }
-  #accor {
-    .accor {
-      &--photo {
-        h1 {
-          font-size: 32px;
-        }
-      }
-    }
-  }
-  #follow {
-    .follow {
-      &--me {
-        &__just {
-          h2 {
-            font-size: 15px;
-            padding-left: 10px;
-          }
-
-          p {
-            font-size: 9px;
-            padding-left: 10px;
-          }
-        }
-
-        &__hidden {
-          h4 {
-            padding-left: 37px;
-
-          }
-
-        }
-      }
-    }
-  }
-  #platform {
-    .platform {
-      &--block {
-        h1 {
-          font-size: 22px;
-          line-height: 1.5;
-        }
-
-        p {
-          font-size: 10px;
-          line-height: 1.5;
-        }
-      }
-    }
-  }
-}
-
-        }
-
-        p {
-          display: none;
-        }
-      }
-
       &--be {
+        width: 286px!important;
+
         &__become {
           &--under {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            width: 286px;
           }
         }
 
       }
+
+      &--group {
+        h1 {
+          font-size: 34px !important;
+        }
+      }
     }
   }
+
+
   #school {
     .school {
       &--mission {
         h1 {
-          font-size: 32px;
+          font-size: 32px!important;
         }
 
         p {
-          font-size: 11px;
+          font-size: 11px!important;
 
         }
       }
     }
   }
+
   #we {
     .we {
 
-      h1{
-        font-size: 24px;
+      h1 {
+        font-size: 24px!important;
       }
     }
 
   }
-  #name{
-    .name{
-      &--there{
+
+  #name {
+    .name {
+      &--there {
         p {
-          font-size: 12px;
+          font-size: 12px!important;
 
         }
       }
@@ -1022,3 +648,8 @@
   }
 
 }
+
+
+
+
+

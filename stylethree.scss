@@ -1,12 +1,58 @@
 @import "reset";
 @import "mixin";
 @import "variables";
-@import "media";
+@import "mediaone";
+
+#header {
+  .hamburger-menu {
+    display: none;
+  }
+  background: rgba(177, 176, 197, 0.11);
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  padding: 20px 0;
+  z-index: 999;
+
+  .header {
+    @include df;
+
+    &--logo {
+      width: 400px;
+      @include df;
+
+      &__text {
+
+        a {
+          @include a;
+        }
+
+      }
+
+    }
+
+    &--btn {
+      @include flex;
+
+      button {
+        @include btn;
+        background: transparent;
+      }
+
+      &__fol {
+        button {
+          @include btn;
+        }
+
+      }
+    }
+  }
+}
 
 #out {
   .out {
     &--block {
-      padding-top: 90px;
+      padding-top: 120px;
 
       a {
         @include a;
@@ -200,6 +246,138 @@
           color: #FFFFFF;
         }
       }
+    }
+  }
+}
+
+
+#footer {
+  .footer {
+    padding-top: 90px;
+    @include df;
+    align-items: flex-start;
+
+    &--our {
+      &__ru {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+
+        h4 {
+          border: 2px solid #ffffff;
+          border-radius: 3px;
+
+          font-weight: 400;
+          font-size: 13px;
+          color: #FFFFFF;
+
+
+        }
+      }
+
+    }
+
+    &--block {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+    &--block1 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+    &--block4 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
     }
   }
 }

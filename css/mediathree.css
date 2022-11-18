@@ -1,9 +1,20 @@
+@media (max-width: 768px) {
+  #header .hamburger-menu {
+    display: block;
+  }
+  #header .header--logo__text {
+    display: none;
+  }
+  #header .header--btn {
+    display: none;
+  }
+}
 @media (max-width: 650px) {
   #out .out--title__text p {
-    font-size: 14px !important;
+    font-size: 14px;
   }
   #certificate .certificate--title {
-    width: 498px !important;
+    width: 90% !important;
   }
   #name .name {
     flex-direction: column;
@@ -21,6 +32,30 @@
     width: 100%;
     height: 86px;
   }
+  #footer .footer {
+    flex-direction: column;
+  }
+  #footer .footer--our {
+    display: flex;
+  }
+  #footer .footer--block {
+    padding: 10px 0;
+  }
+  #footer .footer--block h2 {
+    font-size: 17px;
+  }
+  #footer .footer--block a {
+    font-size: 14px;
+  }
+  #footer .footer--block h5 {
+    font-size: 14px;
+  }
+  #footer .footer--block1 {
+    display: none;
+  }
+  #footer .footer--block4 {
+    display: none;
+  }
   #students .students--block h1 {
     font-size: 39px !important;
   }
@@ -30,7 +65,7 @@
     font-size: 29px !important;
   }
   #out .out--title__text p {
-    font-size: 8px !important;
+    font-size: 9px !important;
   }
   #certificate .certificate--title {
     width: 386px !important;
@@ -69,7 +104,7 @@
 }
 @media (max-width: 320px) {
   #out .out--title__text p {
-    font-size: 5px !important;
+    font-size: 13px !important;
   }
   #certificate .certificate--block h1 {
     font-size: 25px !important;
