@@ -252,4 +252,497 @@
   }
 }
 
-/*# sourceMappingURL=media.css.map */
+
+@media (max-width: 1200px) {
+  #level .level {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  #master .master--java {
+    width: 728px;
+  }
+  #master .master--java__block p {
+    font-size: 15px;
+  }
+  #course .course--dev {
+    padding: 0 8px;
+  }
+  #school .school--mission p {
+    font-size: 17px;
+  }
+  #school .school--mission h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 992px) {
+  #course .course--dev {
+    padding: 0 8px;
+  }
+  #course .course--dev p {
+    font-size: 14px;
+  }
+  #school .school--mission p {
+    font-size: 16px;
+  }
+  #master .master--java {
+    width: 690px;
+  }
+  #master .master--java__block p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 820px) {
+  #course .course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #course .course--dev {
+    padding: 0 20px;
+    margin: 13px;
+  }
+  #school .school {
+    padding-top: 50px;
+    flex-direction: column;
+  }
+  #master .master--java {
+    width: 456px;
+  }
+  #master .master--java__block h2 {
+    font-size: 15px;
+  }
+  #master .master--java__block p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 768px) {
+  #name .name--there p {
+    font-size: 13px;
+  }
+  #name .name--there h1 {
+    font-size: 32px;
+  }
+  #name .name--number__tell input {
+    padding: 15px 75px;
+  }
+  #level .level--group p {
+    font-size: 19px;
+  }
+}
+@media (max-width: 650px) {
+  #level .level--group p {
+    font-size: 16px;
+  }
+  #name .name--number__tell input {
+    padding: 15px 34px;
+  }
+}
+@media (max-width: 578px) {
+  #master .master--java {
+    width: 323px;
+  }
+  #level .level--group p {
+    font-size: 14px;
+  }
+  #name .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  #master .master--java {
+    width: 218px;
+  }
+  #master .master--java__block p {
+    font-size: 12px;
+  }
+  #master .master--java__block h2 {
+    font-size: 14px;
+  }
+  #school .school--image img {
+    width: 90%;
+  }
+  #level .level--group p {
+    font-size: 12px;
+  }
+  #we .we h1 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 420px) {
+  #master .master--java {
+    width: 168px;
+  }
+  #master .master--java__block h2 {
+    font-size: 12px;
+  }
+  #master .master--java__block p {
+    font-size: 9px;
+  }
+  #master .master h1 {
+    font-size: 44px;
+  }
+  #level .level--group h1 {
+    font-size: 41px;
+  }
+  #level .level--group p {
+    font-size: 10px;
+  }
+  #level .level--be {
+    padding: 0 0;
+  }
+  #level .level--be__become {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #level .level--be__become--under {
+    flex-direction: column;
+  }
+  #level .level--be__become--under button {
+    margin-bottom: 20px;
+  }
+  #school .school--mission h1 {
+    font-size: 35px;
+  }
+  #school .school--mission p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 375px) {
+  #school .school--mission p {
+    font-size: 13px;
+  }
+  #level .level--group h1 {
+    font-size: 38px;
+  }
+  #level .level--group p {
+    font-size: 9px;
+  }
+  #level .level--be___become {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 360px) {
+  #course .course--dev h1 {
+    font-size: 22px;
+  }
+  #master .master--java__blockP h2 {
+    font-size: 11px;
+  }
+  #master .master h1 {
+    font-size: 42px;
+  }
+  #we .we h1 {
+    font-size: 27px;
+  }
+  #level .level--be__become--under {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 302px;
+  }
+}
+@media (max-width: 320px) {
+  #master .master h1 {
+    font-size: 37px;
+  }
+  #master .master--java {
+    width: 136px;
+    padding: 30px 38px;
+  }
+  #master .master--java__block p {
+    font-size: 9px;
+    font-weight: 700;
+  }
+  #master .master--java__block h2 {
+    font-size: 9px;
+  }
+  #course .course--dev h1 {
+    font-size: 20px;
+  }
+  #course .course--dev p {
+    font-size: 12px;
+  }
+  #level .level--group h1 {
+    font-size: 34px;
+  }
+  #level .level--group p {
+    display: none;
+  }
+  #level .level--be__become--under {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 286px;
+  }
+  #school .school--mission h1 {
+    font-size: 32px;
+  }
+  #school .school--mission p {
+    font-size: 11px;
+  }
+  #we .we h1 {
+    font-size: 24px;
+  }
+  #name .name--there p {
+    font-size: 12px;
+
+@media (max-width: 1024px) {
+  #platform .platform {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  #platform .platform--block p {
+    font-size: 18px;
+  }
+  #platform .platform--block h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 820px) {
+  #footer .footer {
+    flex-wrap: wrap;
+  }
+  #zayavka .zayavka--cap__kaif input {
+    padding: 15px 95px;
+  }
+  #accor .accor--photo h1 {
+    font-size: 35px;
+  }
+  #accor .accor--photo img {
+    width: 43%;
+  }
+  #platform .platform--block p {
+    font-size: 18px;
+  }
+  #platform .platform--block h1 {
+    font-size: 37px;
+  }
+}
+@media (max-width: 768px) {
+  #platform .platform--block p {
+    font-size: 16px;
+  }
+  #platform .platform--block h1 {
+    font-size: 35px;
+  }
+  #zayavka .zayavka {
+    flex-direction: column;
+    align-items: center;
+  }
+  #header .hamburger-menu {
+    display: block;
+  }
+  #header .header--logo__text {
+    display: none;
+  }
+  #header .header--btn {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  #follow .follow--me {
+    flex-direction: column;
+  }
+  #follow .follow__hidden h4 {
+    padding-left: 37px;
+  }
+  #platform .platform--block h1 {
+    font-size: 29px;
+  }
+  #platform .platform--block p {
+    font-size: 15px;
+  }
+  #platform .platform--photo .star {
+    width: 90%;
+  }
+  #platform .platform--photo .img1 {
+    display: none;
+  }
+  #platform .platform--photo .img2 {
+    display: none;
+  }
+  #platform .platform--photo .img3 {
+    display: none;
+  }
+  #platform .platform--photo .img4 {
+    display: none;
+  }
+  #accor .accor {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 578px) {
+  #platform .platform--block p {
+    font-size: 14px;
+  }
+  #platform .platform--block h1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 480px) {
+  #follow .follow--me__just h2 {
+    font-size: 22px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__just p {
+    font-size: 15px;
+  }
+  #follow .follow--me__hidden h4 {
+    padding-left: 37px;
+  }
+  #platform .platform--block h1 {
+    font-size: 21px;
+    line-height: 2;
+  }
+  #platform .platform--block p {
+    font-size: 11px;
+    line-height: 2;
+  }
+  #footer .footer {
+    flex-direction: column;
+  }
+  #footer .footer--our {
+    display: flex;
+  }
+  #footer .footer--block {
+    padding: 10px 0;
+  }
+  #footer .footer--block h2 {
+    font-size: 17px;
+  }
+  #footer .footer--block a {
+    font-size: 14px;
+  }
+  #footer .footer--block h5 {
+    font-size: 14px;
+  }
+  #footer .footer--block1 {
+    display: none;
+  }
+  #footer .footer--block4 {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  #zayavka .zayavka--slash h1 {
+    font-size: 33px;
+  }
+  #follow .follow--me__just h2 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__just p {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__hidden h4 {
+    padding-left: 37px;
+  }
+  #follow #platform .platform--block h1 {
+    font-size: 25px;
+    line-height: 2;
+  }
+  #follow #platform .platform--block p {
+    font-size: 10px;
+    line-height: 2;
+  }
+}
+@media (max-width: 400px) {
+  #platform .platform--block h1 {
+    font-size: 25px;
+    line-height: 2;
+  }
+  #platform .platform--block p {
+    font-size: 12px;
+    line-height: 2;
+  }
+  #latest .latest--article__fly {
+    width: 100%;
+  }
+  #latest .latest--article__fly img {
+    width: 100%;
+  }
+  #follow .follow--me__just h2 {
+    font-size: 19px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__just p {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__hidden h4 {
+    padding-left: 37px;
+  }
+}
+@media (max-width: 375px) {
+  #zayavka .zayavka--slash p {
+    font-size: 14px;
+  }
+  #zayavka .zayavka--cap__kaif input {
+    padding: 15px 74px;
+  }
+  #follow .follow--me__just h2 {
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__just p {
+    font-size: 11px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__hidden h4 {
+    padding-left: 37px;
+  }
+  #platform .platform--block h1 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  #platform .platform--block p {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 320px) {
+  #zayavka .zayavka--slash p {
+    font-size: 13px;
+  }
+  #zayavka .zayavka--cap__kaif input {
+    padding: 15px 53px;
+  }
+  #accor .accor--photo h1 {
+    font-size: 32px;
+  }
+  #follow .follow--me__just h2 {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__just p {
+    font-size: 9px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__hidden h4 {
+    padding-left: 37px;
+  }
+  #platform .platform--block h1 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  #platform .platform--block p {
+    font-size: 10px;
+    line-height: 1.5;
+
+  }
+}
+
+
+
