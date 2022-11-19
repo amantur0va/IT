@@ -426,8 +426,9 @@ input {
 #header .header--btn button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 #header .header--btn__fol button {
   font-weight: 500;
@@ -441,8 +442,9 @@ input {
 #header .header--btn__fol button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 
 #platform {
@@ -552,8 +554,9 @@ input {
 #latest .latest--article__fly--desc__mon--icon__club button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 #latest .latest--article__fly--desc__mon--icon__club button:hover {
   border: none;
@@ -581,8 +584,9 @@ input {
 #latest .latest--best button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 
 #follow {
@@ -626,8 +630,9 @@ input {
 #follow .follow--me__hidden button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 #follow .follow--me__hidden h4 {
   font-weight: 400;
@@ -654,58 +659,48 @@ input {
 #accor .accor--photo img {
   margin: 20px 50px;
 }
-#accor .accor--dem input.accordion {
-  appearance: none;
-  left: -100%;
-  position: absolute;
-  background: transparent;
+#accor .accor .acardion {
+  max-width: 800px;
+  list-style: none;
 }
-#accor .accor--dem input.accordion + label {
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
-  padding-left: 25px;
-  color: #FFFFFF;
-}
-#accor .accor--dem input.accordion + label span::before {
-  color: #767676;
-  content: "+";
-  position: absolute;
-  right: 0;
-}
-#accor .accor--dem input.accordion ~ article {
-  height: 0;
-  opacity: 0;
-  overflow: hidden;
-  padding: 5px;
-  padding-left: 25px;
-  border: 1.5px solid #767676;
-  transition: height 500ms ease, opacity 500ms ease;
-}
-#accor .accor--dem input.accordion:checked + label span::before {
-  content: "×";
-}
-#accor .accor--dem input.accordion:checked ~ article {
-  height: 100%;
-  opacity: 1;
-  color: #9099A3;
-}
-#accor .accor--dem main {
-  height: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-}
-#accor .accor--dem h1 {
-  font-size: 30px;
-}
-#accor .accor--dem section {
-  border-bottom: 1px solid #45ADA8;
-  padding-top: 30px;
+#accor .accor .acardion__item {
   position: relative;
+  margin: 20px 10px;
 }
-#accor .accor--dem section:first-of-type {
-  padding-top: 0;
+#accor .accor .acardion__item--active .acardion__content {
+  height: 200px;
+  padding: 10px;
+  opacity: 1;
+  color: grey;
+}
+#accor .accor .acardion__item--active .acardion__label::before {
+  content: "↑";
+}
+#accor .accor .acardion__label {
+  font-size: 16px;
+  position: relative;
+  padding: 10px;
+  color: #fff;
+  background: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#accor .accor .acardion__label::before {
+  position: absolute;
+  content: " ↓ ";
+  top: 27%;
+  right: 2%;
+  font-size: 1.5em;
+  transform: translateY(-50%);
+}
+#accor .accor .acardion__content {
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  opacity: 0;
+  height: 0;
+  transition: 0.5s;
+  background: none;
 }
 
 #zayavka {
@@ -767,8 +762,9 @@ input {
 #zayavka .zayavka--cap__text button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 
 #footer .footer {

@@ -62,6 +62,24 @@
     }
   }
 }
+  #header {
+    .hamburger-menu {
+      display: block;
+    }
+    .header {
+      &--logo {
+        &__text {
+          display: none;
+        }
+
+      }
+
+      &--btn {
+        display: none;
+      }
+    }
+  }
+
 
 }
 @media (max-width: 650px) {

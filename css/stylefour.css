@@ -167,8 +167,9 @@ input {
 #header .header--btn button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 #header .header--btn__fol button {
   font-weight: 500;
@@ -182,8 +183,9 @@ input {
 #header .header--btn__fol button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 
 #glav .glav {
@@ -253,8 +255,9 @@ input {
 #latest .latest--article__fly--desc__mon--icon__club button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 #latest .latest--article__fly--desc__mon--icon__club button:hover {
   border: none;
@@ -282,8 +285,9 @@ input {
 #latest .latest--best button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 
 #footer {

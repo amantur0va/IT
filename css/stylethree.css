@@ -421,8 +421,9 @@ input {
 #header .header--btn button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 #header .header--btn__fol button {
   font-weight: 500;
@@ -436,8 +437,9 @@ input {
 #header .header--btn__fol button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 
 #out .out--block {
@@ -628,8 +630,9 @@ input {
 #name .name--number button:hover {
   transform: scale(1.1);
   background: transparent;
-  color: #034078;
-  border: 1px solid #000;
+  color: #000000;
+  font-weight: 600;
+  border: none;
 }
 #name .name--number__tell h3 {
   font-weight: 400;
