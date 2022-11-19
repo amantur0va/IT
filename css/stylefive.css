@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: #41586b;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  padding: 10px 65px;
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+#page .page {
+  padding-top: 90px;
+}
+#page .page--frame {
+  padding-top: 20px;
+}
+#page .page--frame h1 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+#page .page--block a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 0 15px;
+  transition: 0.4s;
+  color: #A5A5A5;
+  padding: 0 0;
+}
+#page .page--block a:hover {
+  transform: scale(1.1);
+  text-decoration-line: underline;
+}
+#page .page--block h5 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 15px;
+  color: #A5A5A5;
+}
+#page .page--center h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+#page .page--center p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+#page .page--center__image {
+  padding-top: 50px;
+}
+#page .page ul {
+  padding: 20px 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#lock .lock {
+  padding-top: 90px;
+}
+#lock .lock--comments h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  font-size: 36px;
+  padding: 30px 0;
+}
+#lock .lock--block {
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+#lock .lock--block button {
+  width: 280px;
+  height: 42px;
+  background: #034078;
+  color: #FFFFFF;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+#lock .lock--block button:hover {
+  transform: scale(1.1);
+  background: transparent;
+  color: #034078;
+  border: 1px solid #000;
+}
+#lock .lock--block__title--text {
+  display: flex;
+  align-items: center;
+}
+#lock .lock--block__title--text p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
+  color: #8D8D8D;
+}
+#lock .lock--block__title--text a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 0 15px;
+  transition: 0.4s;
+  color: #000000;
+}
+#lock .lock--block__title--text a:hover {
+  transform: scale(1.1);
+  text-decoration-line: underline;
+}
+
+/*# sourceMappingURL=stylefive.css.map */
