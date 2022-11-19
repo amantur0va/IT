@@ -964,7 +964,6 @@ input {
 #page .page--center h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 38px;
 }
@@ -1010,7 +1009,6 @@ input {
 #comment .comment h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 36px;
   padding: 20px 0;

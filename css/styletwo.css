@@ -750,7 +750,6 @@ input {
 #school .school--mission h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
 }
 #school .school--mission p {
@@ -775,7 +774,6 @@ input {
 #course .course--frontend h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   padding-bottom: 20px;
 }
@@ -787,7 +785,6 @@ input {
 #course .course--dev h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 24px;
   color: #000000;
@@ -809,7 +806,6 @@ input {
   background: #034078;
   border-radius: 5px;
   transition: 0.4s;
-  font-size: 25px;
   font-weight: 700;
   background: transparent;
   color: #000000;
@@ -855,7 +851,6 @@ input {
 #master .master h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -925,7 +920,6 @@ input {
 #level .level--group h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
 }
 #level .level--group p {
@@ -957,7 +951,6 @@ input {
 #level .level--be__become h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
 }
 #level .level--be__become--under {
@@ -991,7 +984,6 @@ input {
   background: #034078;
   border-radius: 5px;
   transition: 0.4s;
-  font-size: 25px;
   background: transparent;
 }
 #level .level--be__become--under__btn2:hover {
@@ -1007,7 +999,6 @@ input {
 #we .we h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -1054,7 +1045,6 @@ input {
 #name .name--there h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 36px;
 }

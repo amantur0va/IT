@@ -462,7 +462,6 @@ input {
 #platform .platform--block h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
 }
 #platform .platform--block p {
@@ -602,7 +601,6 @@ input {
 #follow .follow--me__just {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   color: #000000;
   font-size: 16px;
@@ -650,7 +648,6 @@ input {
 #accor .accor--photo h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
 }
 #accor .accor--photo img {
@@ -711,7 +708,6 @@ input {
 #zayavka .zayavka--slash h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 36px;
 }

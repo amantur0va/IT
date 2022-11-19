@@ -466,7 +466,6 @@ input {
 #out .out--title__text h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -500,7 +499,6 @@ input {
 #certificate .certificate--block h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -551,7 +549,6 @@ input {
 #students .students--block h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   padding: 10%;
   text-align: center;
@@ -599,7 +596,6 @@ input {
 #name .name--there h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 36px;
 }

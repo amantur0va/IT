@@ -130,6 +130,13 @@ input {
   #lock .lock--block__title--text p {
     font-size: 11px;
   }
+  #footer .footer {
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+  }
 }
 @media (max-width: 768px) {
   #lock .lock--block__title h1 {
@@ -160,6 +167,30 @@ input {
   }
 }
 @media (max-width: 480px) {
+  #footer .footer {
+    flex-direction: column;
+  }
+  #footer .footer--our {
+    display: flex;
+  }
+  #footer .footer--block {
+    padding: 10px 0;
+  }
+  #footer .footer--block h2 {
+    font-size: 17px;
+  }
+  #footer .footer--block a {
+    font-size: 14px;
+  }
+  #footer .footer--block h5 {
+    font-size: 14px;
+  }
+  #footer .footer--block1 {
+    display: none !important;
+  }
+  #footer .footer--block4 {
+    display: none !important;
+  }
   #lock .lock--block {
     display: flex;
     align-items: center;
@@ -186,13 +217,14 @@ input {
 }
 @media (max-width: 320px) {
   #page .page ul {
-    font-size: 14px;
+    font-size: 17px !important;
   }
   #page .page--center h1 {
-    font-size: 15px;
+    font-size: 11px !important;
   }
   #page .page--center p {
-    font-size: 14px;
+    font-size: 7px !important;
+    line-height: 2;
   }
   #page .page--frame h1 {
     font-size: 16px;
@@ -317,7 +349,6 @@ input {
 #page .page--center h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 38px;
 }
@@ -344,7 +375,6 @@ input {
 #lock .lock--comments h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 36px;
   padding: 30px 0;
