@@ -65,7 +65,6 @@
 @mixin p {
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
 }
@@ -107,6 +106,7 @@
   color: #FFFFFF;
 
 
+
 }
 @mixin btn2 {
   font-weight: 500;
@@ -122,6 +122,7 @@
     color: #034078;
     border: none;
   }
+
 
   font-size: 25px;
 }

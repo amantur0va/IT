@@ -1,0 +1,669 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  #comment {
+    .comment {
+      &--block1 {
+        width: 63%;
+      }
+
+      &--block11 {
+        width: 57%;
+      }
+
+      &--block2 {
+        width: 56%;
+      }
+
+      &--decide {
+        &__init {
+          input {
+            width: 89%;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #comment {
+    .comment {
+      &--block1 {
+        width: 64%;
+      }
+
+      &--block11 {
+        width: 72%;
+      }
+
+      &--block2 {
+        width: 58%;
+      }
+
+      &--decide {
+        &__init {
+          input {
+            width: 89%;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  #comment {
+    .comment {
+      &--block1 {
+        width: 78%;
+      }
+
+      &--block11 {
+        width: 86%;
+      }
+
+      &--block2 {
+        width: 72%;
+      }
+
+      &--block3 {
+        width: 63%;
+      }
+
+      &--decide {
+        &__init {
+          input {
+            width: 89%;
+
+          }
+        }
+      }
+    }
+  }
+  #title {
+    .title {
+      &--pum {
+        p {
+          font-size: 17px;
+        }
+
+        h4 {
+          font-size: 17px;
+        }
+
+        ul {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  #comment {
+    .comment {
+      &--block {
+        width: 65%;
+
+        &__people {
+          &--answer {
+            p {
+              font-size: 13px;
+
+            }
+          }
+
+        }
+
+      }
+
+      &--block1 {
+        width: 73%;
+      }
+
+      &--block2 {
+        width: 64%;
+      }
+
+      &--block3 {
+        width: 60%;
+      }
+
+      &--block11 {
+        width: 79%;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  #title {
+    .title {
+      &--pum {
+        p {
+          font-size: 15px;
+        }
+
+        h4 {
+          font-size: 15px;
+        }
+
+        ul {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  #comment {
+    .comment {
+      &--block {
+        width: 75%;
+
+        &__people {
+          &--answer {
+            p {
+              font-size: 12px;
+
+            }
+          }
+
+        }
+
+      }
+
+      &--block1 {
+        width: 80%;
+      }
+
+      &--block2 {
+        width: 72%;
+      }
+
+      &--block3 {
+        width: 65%;
+      }
+
+      &--block11 {
+        width: 85%;
+      }
+
+      &--decide {
+        &__init {
+          input {
+            height: 80px;
+          }
+        }
+      }
+
+
+    }
+  }
+
+}
+
+@media (max-width: 578px) {
+  #comment {
+    .comment {
+      &--block {
+        width: 79%;
+
+        &__people {
+          &--answer {
+            p {
+              font-size: 10px;
+
+            }
+            h6{
+              font-size: 11px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 18px;
+            }
+          }
+
+        }
+
+      }
+
+      &--block1 {
+        width: 76%;
+      }
+
+      &--block2 {
+        width: 70%;
+      }
+
+      &--block3 {
+        width: 65%;
+      }
+
+      &--block11 {
+        width: 85%;
+      }
+
+      &--decide {
+        &__init {
+          input {
+            height: 80px;
+            width: 85%;
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #comment {
+    .comment {
+      &--block {
+        width: 79%;
+
+        &__people {
+          &--answer {
+            p {
+              font-size: 8px;
+
+            }
+            h6{
+              font-size: 11px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 11px;
+            }
+          }
+
+        }
+
+      }
+
+      &--block1 {
+        width: 76%;
+      }
+
+      &--block2 {
+        width: 70%;
+      }
+
+      &--block3 {
+        width: 65%;
+      }
+
+      &--block11 {
+        width: 85%;
+      }
+
+      &--decide {
+        &__init {
+          input {
+            height: 80px;
+            width: 85%;
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+@media (max-width: 420px) {
+
+}
+
+@media (max-width: 400px) {
+  #title {
+    .title {
+      &--pum {
+        p {
+          font-size: 10px;
+        }
+
+        h4 {
+          font-size: 12px;
+        }
+
+        ul {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  #comment {
+    .comment {
+      &--block {
+        width: 69%;
+        img{
+          width: 20%;
+        }
+        &__people {
+          &--answer {
+            p {
+              font-size: 8px;
+
+            }
+            h6{
+              font-size: 8px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 10px;
+            }
+            h5{
+              font-size: 8px;
+            }
+          }
+
+        }
+
+      }
+
+      &--block1 {
+        width: 76%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--block2 {
+        width: 76%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--block3 {
+        width: 68%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--block11 {
+        width: 85%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--decide {
+        &__init {
+          input {
+            height: 80px;
+            width: 85%;
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #comment {
+    .comment {
+      h1{
+        font-size: 28px;
+      }
+      &--block {
+        width: 72%;
+        img{
+          width: 20%;
+        }
+        &__people {
+          &--answer {
+            p {
+              font-size: 8px;
+
+            }
+            h6{
+              font-size: 8px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 10px;
+            }
+            h5{
+              font-size: 8px;
+            }
+          }
+
+        }
+
+      }
+
+      &--block1 {
+        width: 76%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--block2 {
+        width: 80%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--block3 {
+        width: 68%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--block11 {
+        width: 85%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--decide {
+        &__init {
+          input {
+            height: 56px;
+            width: 78%;
+          }
+        }
+      }
+
+
+    }
+  }
+
+}
+
+@media (max-width: 360px) {
+  #comment {
+    .comment {
+      h1{
+        font-size: 28px;
+      }
+      &--block {
+        width: 76%;
+        img{
+          width: 20%;
+        }
+        &__people {
+          &--answer {
+            p {
+              font-size: 8px;
+
+            }
+            h6{
+              font-size: 8px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 10px;
+            }
+            h5{
+              font-size: 8px;
+            }
+          }
+
+        }
+
+      }
+
+      &--block1 {
+        width: 83%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--block2 {
+        width: 83%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--block3 {
+        width: 74%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--block11 {
+        width: 85%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--decide {
+        &__init {
+          input {
+            height: 56px;
+            width: 78%;
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #title {
+    .title {
+      &--pum {
+        p {
+          font-size: 10px;
+        }
+
+        h4 {
+          font-size: 11px;
+        }
+
+        ul {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+  #comment {
+    .comment {
+      h1{
+        font-size: 28px;
+      }
+      &--block {
+        width: 86%;
+        img{
+          width: 16%;
+        }
+        &__people {
+          &--answer {
+            p {
+              font-size: 8px;
+
+            }
+            h6{
+              font-size: 8px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 10px;
+            }
+            h5{
+              font-size: 7px;
+            }
+          }
+
+        }
+
+      }
+
+      &--block1 {
+        width: 103%;
+        img{
+          width: 16%;
+        }
+      }
+
+      &--block2 {
+        width: 94%;
+        img{
+          width: 16%;
+        }
+      }
+
+      &--block3 {
+        width: 85%;
+        img{
+          width: 16%;
+        }
+      }
+
+      &--block11 {
+        width: 85%;
+        img{
+          width: 20%;
+        }
+      }
+
+      &--decide {
+        &__init {
+          input {
+            height: 51px;
+            width: 75%;
+          }
+        }
+      }
+
+
+    }
+  }
+
+}

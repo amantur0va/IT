@@ -26,6 +26,7 @@
       align-items: center;
     }
   }
+
 }
 
 @media (max-width: 992px) {
@@ -130,6 +131,7 @@
 
     }
   }
+
 }
 
 @media (max-width: 992px) {
@@ -150,6 +152,13 @@
 
 
 @media (max-width: 820px) {
+  #footer {
+    .footer {
+      flex-wrap: wrap;
+    }
+  }
+  #zayavka {
+
 
   #footer {
     .footer {
@@ -302,9 +311,98 @@
   }
 
 
+  #platform {
+    .platform {
+      &--block {
+        p {
+          font-size: 16px;
+        }
+        h1{
+          font-size: 35px;
+        }
+      }
+    }
+  }
+  #zayavka {
+    .zayavka {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  #header {
+    .hamburger-menu {
+      display: block;
+    }
+    .header {
+      &--logo {
+        &__text {
+          display: none;
+        }
+
+      }
+
+      &--btn {
+        display: none;
+      }
+    }
+  }
+
+
 }
 
 @media (max-width: 650px) {
+  #follow {
+    .follow {
+      &--me {
+        flex-direction: column;
+      }
+
+      &__hidden {
+        h4 {
+          padding-left: 37px;
+        }
+      }
+    }
+  }
+  #platform {
+    .platform {
+      &--block{
+        h1{
+          font-size: 29px;
+        }
+        p{
+          font-size: 15px;
+        }
+      }
+      &--photo {
+        .star {
+          width: 90%;
+        }
+
+        .img1 {
+          display: none;
+        }
+
+        .img2 {
+          display: none;
+        }
+
+        .img3 {
+          display: none;
+        }
+
+        .img4 {
+          display: none;
+        }
+      }
+    }
+  }
+  #accor {
+    .accor {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 
   #level {
     .level {
@@ -482,6 +580,7 @@
 
 
 
+
         h1 {
           font-size: 26px;
         }
@@ -561,6 +660,19 @@
       &--block4 {
         display: none;
 
+
+        h5 {
+          font-size: 14px;
+        }
+      }
+
+      &--block1 {
+        display: none;
+      }
+
+      &--block4 {
+        display: none;
+
 @media (max-width: 480px) {
   #master {
     .master {
@@ -590,7 +702,6 @@
         h1 {
           font-size: 26px;
         }
-
       }
     }
   }
@@ -691,6 +802,47 @@
   }
 }
 @media (max-width: 420px) {
+  #zayavka {
+    .zayavka {
+      &--slash {
+        h1 {
+          font-size: 33px;
+        }
+      }
+    }
+  }
+  #follow {
+    .follow {
+      &--me {
+        &__just {
+          h2 {
+            font-size: 20px;
+            padding-left: 10px;
+          }
+
+          p {
+            font-size: 12px;
+            padding-left: 10px;
+          }
+        }
+
+        &__hidden {
+          h4 {
+            padding-left: 37px;
+
+          }
+        }
+      }
+    }
+
+    #platform {
+      .platform {
+        &--block {
+          h1 {
+            font-size: 25px;
+            line-height: 2;
+          }
+
 
   #zayavka {
     .zayavka {
@@ -846,6 +998,7 @@
           }
 
 
+
           p {
             font-size: 10px;
             line-height: 2;
@@ -908,6 +1061,7 @@
           }
 
 
+
           img {
             width: 100%;
           }
@@ -937,6 +1091,7 @@
           }
 
 
+
         }
       }
     }
@@ -944,6 +1099,14 @@
 }
 
 @media (max-width: 375px) {
+  #zayavka {
+    .zayavka {
+      &--slash {
+        p {
+          font-size: 14px;
+        }
+      }
+
 
   #zayavka {
     .zayavka {
@@ -995,6 +1158,7 @@
           font-size: 14px;
         }
       }
+
 
       &--cap {
         &__kaif {
@@ -1100,6 +1264,67 @@
 }
 
 @media (max-width: 320px) {
+   #zayavka {
+    .zayavka {
+      &--slash {
+        p {
+          font-size: 13px;
+        }
+      }
+
+      &--cap {
+        &__kaif {
+          input {
+            padding: 15px 53px;
+          }
+        }
+      }
+    }
+  }
+  #accor {
+    .accor {
+      &--photo {
+        h1 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+  #follow {
+    .follow {
+      &--me {
+        &__just {
+          h2 {
+            font-size: 15px;
+            padding-left: 10px;
+          }
+
+          p {
+            font-size: 9px;
+            padding-left: 10px;
+          }
+        }
+
+        &__hidden {
+          h4 {
+            padding-left: 37px;
+
+          }
+
+        }
+      }
+    }
+  }
+  #platform {
+    .platform {
+      &--block {
+        h1 {
+          font-size: 22px;
+          line-height: 1.5;
+        }
+
+
+        p {
 
    #zayavka {
     .zayavka {
@@ -1268,6 +1493,7 @@
         }
 
         p {
+
 
           font-size: 10px;
           line-height: 1.5;

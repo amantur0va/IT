@@ -1,0 +1,279 @@
+@import "mixin";
+@import "variables";
+@import "reset";
+@import "media";
+
+
+#title{
+  .title{
+    &--pum{
+      p{
+        @include p;
+        font-size: 20px;
+        width: 73%;
+      }
+      h4{
+        @include h4;
+        font-size: 20px;
+      }
+      ul{
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+#comment {
+  .comment {
+    h1 {
+      @include h1;
+      font-size: 36px;
+      padding: 20px 0;
+    }
+
+    &--decide {
+      background: #050C22;
+      border-radius: 7px;;
+      width: 56%;
+
+      &__init {
+        padding-left: 5%;
+
+        input {
+          width: 600px;
+          height: 130px;
+          margin: 20px 0;
+          padding: 0 15px;
+          color: #FFFFFF;
+        }
+
+        button {
+          @include btn;
+          background: #1B2959;
+          border-radius: 7px;
+          margin-bottom: 10px;
+
+          &:hover {
+            border: none;
+
+          }
+        }
+      }
+    }
+
+    &--block {
+      @include df;
+      padding-top: 40px;
+      width: 480px;
+
+      &__people {
+        &--nur {
+          @include flex;
+
+          h4 {
+            @include h4;
+            font-size: 20px;
+            line-height: 0
+          }
+
+          h5 {
+            @include h5;
+            color: #9099A3;
+            font-size: 14px;
+            padding-left: 5px;
+          }
+        }
+
+        &--answer {
+
+          p {
+            @include p;
+            font-size: 16px;
+
+          }
+
+          h6 {
+            font-weight: 400;
+            font-size: 14px;
+            color: #9099A3;
+          }
+        }
+      }
+
+    }
+
+    &--block1 {
+      @include df;
+      padding-top: 40px;
+      width: 49%;
+
+      &__people {
+        &--nur {
+          @include flex;
+
+          h4 {
+            @include h4;
+            font-size: 20px;
+            line-height: 0
+          }
+
+          h5 {
+            @include h5;
+            color: #9099A3;
+            font-size: 14px;
+            padding-left: 5px;
+          }
+        }
+
+        &--answer {
+
+          p {
+            @include p;
+            font-size: 16px;
+
+          }
+
+          h6 {
+            font-weight: 400;
+            font-size: 14px;
+            color: #9099A3;
+          }
+        }
+      }
+
+    }
+
+    &--block11 {
+      @include df;
+      padding-top: 40px;
+      width: 54%;
+      padding-left: 15%;
+
+      &__people {
+        &--nur {
+          @include flex;
+
+          h4 {
+            @include h4;
+            font-size: 20px;
+            line-height: 0
+          }
+
+          h5 {
+            @include h5;
+            color: #9099A3;
+            font-size: 14px;
+            padding-left: 5px;
+          }
+        }
+
+        &--answer {
+
+          p {
+            @include p;
+            font-size: 16px;
+
+          }
+
+          h6 {
+            font-weight: 400;
+            font-size: 14px;
+            color: #9099A3;
+          }
+        }
+      }
+
+    }
+
+    &--block2 {
+      @include df;
+      padding-top: 40px;
+      width: 43%;
+
+      &__people {
+        &--nur {
+          @include flex;
+
+          h4 {
+            @include h4;
+            font-size: 20px;
+            line-height: 0
+          }
+
+          h5 {
+            @include h5;
+            color: #9099A3;
+            font-size: 14px;
+            padding-left: 5px;
+          }
+        }
+
+        &--answer {
+
+          p {
+            @include p;
+            font-size: 16px;
+
+          }
+
+          h6 {
+            font-weight: 400;
+            font-size: 14px;
+            color: #9099A3;
+          }
+        }
+      }
+
+    }
+
+    &--block3 {
+      @include df;
+      padding-top: 40px;
+      width: 39%;
+
+      &__people {
+        &--nur {
+          @include flex;
+
+          h4 {
+            @include h4;
+            font-size: 20px;
+            line-height: 0
+          }
+
+          h5 {
+            @include h5;
+            color: #9099A3;
+            font-size: 14px;
+            padding-left: 5px;
+          }
+        }
+
+        &--answer {
+
+          p {
+            @include p;
+            font-size: 16px;
+
+          }
+
+          h6 {
+            font-weight: 400;
+            font-size: 14px;
+            color: #9099A3;
+          }
+        }
+      }
+
+    }
+    button{
+      @include btn;
+      margin-top: 25px;
+      background: #1B2959;
+      padding: 15px 35px;
+    }
+  }
+}
