@@ -1,7 +1,8 @@
+@import "media7";
 @import "reset";
 @import "mixin";
-@import "variables";
-@import "mediafive";
+
+
 #header {
   .hamburger-menu {
     display: none;
@@ -49,114 +50,59 @@
 }
 
 
-#page {
-  .page {
-    padding-top: 120px;
+#master {
+  .master {
+    padding: 5% 0;
 
-    &--frame {
-      padding-top: 20px;
-
-      h1 {
-        font-size: 20px;
-        font-weight: 400;
-        color: #FFFFFF;
-      }
-    }
-
-    &--block {
+    &--he {
+      padding-top: 10%;
       a {
         @include a;
-        color: #A5A5A5;
-        padding: 0 0;
-        line-height: 2;
-      }
 
-      h5 {
-        @include h5;
-        font-weight: 400;
-        font-size: 15px;
+
         color: #A5A5A5;
       }
     }
 
-    &--center {
-      h1 {
-        @include h1;
-        font-size: 38px;
 
-      }
+    h1 {
 
-      p {
-        @include p;
-        font-size: 20px;
-      }
-
-      &__image {
-        padding-top: 50px;
-      }
+      @include h1;
+      text-align: center;
+      padding-top: 60px;
     }
 
-    ul {
-      padding: 20px 0;
-      font-weight: 500;
-      font-size: 18px;
-      color: #FFFFFF;
-    }
-  }
-}
-
-#lock{
-  .lock{
-    padding-top: 90px;
-    &--comments{
-      h1{
-        @include h1;
-        font-size: 36px;
-        padding: 30px 0;
-
-
-      }
-    }
-    &--block{
+    &--java {
+      margin-left: 7%;
+      margin-top: 2%;
       background: #FFFFFF;
-      border-radius: 5px;
-      display: flex;
-      padding: 20px 0;
-      justify-content: space-around;
-      align-items: flex-start;
+      @include center;
+      width: 900px;
+      padding: 30px 70px;
+      box-shadow: -5px -3px 10px rgba(16, 23, 47, 0.45), 9px 9px 9px rgba(10, 15, 33, 0.45);
+      border-radius: 10px;
 
-      button{
-        width: 280px;
-        height: 42px;
-        background: #034078;
-        color: #FFFFFF;
-        border-radius: 5px;
-        transition: .4s;
+      &__block {
 
-        &:hover {
-          transform: scale(1.1);
-          background: transparent;
-          color: #034078;
-          border: 1px solid #000;
+        h2 {
+          @include h2;
+          color: #043F75;
+          font-size: 20px;
+          padding: 10px 0;
         }
-      }
-      &__title{
-        &--text{
-          display: flex;
-          align-items: center;
-          p{
-            @include p;
-            color: #8D8D8D;
-          }
-       a{
-         @include a;
-         color: #000000
-       }
+
+        p {
+          @include p;
+          color: #000000;
+          font-size: 16px;
         }
       }
     }
+
+
   }
 }
+
 
 #footer {
   .footer {
@@ -288,3 +234,5 @@
     }
   }
 }
+
+

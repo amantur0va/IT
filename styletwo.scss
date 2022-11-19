@@ -1,9 +1,55 @@
 @import "reset";
 @import "variables";
 @import "mixin";
+@import "media";
 
 
+#header {
+  .hamburger-menu {
+    display: none;
+  }
 
+  background: rgba(177, 176, 197, 0.11);
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  padding: 20px 0;
+  z-index: 999;
+
+  .header {
+    @include df;
+
+    &--logo {
+      width: 400px;
+      @include df;
+
+      &__text {
+
+        a {
+          @include a;
+        }
+
+      }
+
+    }
+
+    &--btn {
+      @include flex;
+
+      button {
+        @include btn;
+        background: transparent;
+      }
+
+      &__fol {
+        button {
+          @include btn;
+        }
+
+      }
+    }
+  }
+}
 
 
 #school {
@@ -11,7 +57,7 @@
     @include around;
 
     &--he {
-      padding-top: 90px;
+      padding-top: 110px;
 
       a {
         @include a;
@@ -33,13 +79,6 @@
     }
   }
 }
-
-
-
-
-
-
-
 
 
 #course {
@@ -159,6 +198,7 @@
 #level {
   .level {
     @include df;
+
     &--group {
       @include center;
       flex-direction: column;
@@ -180,10 +220,12 @@
       padding: 0 2%;
       box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
       border-radius: 10px;
+
       &__become {
         h3 {
           @include h3;
         }
+
         h5 {
           @include h5;
           font-size: 15px;
@@ -199,10 +241,12 @@
           @include df;
           width: 350px;
           margin: 8% -0px;
+
           button {
             @include btn;
           }
-          &__btn2{
+
+          &__btn2 {
             @include btn2;
             background: transparent;
           }
@@ -214,25 +258,29 @@
 
 }
 
-#we{
+#we {
   .we {
     padding-top: 8%;
-    h1{
+
+    h1 {
       @include h1;
       text-align: center;
     }
+
     .swiper {
       width: 100%;
       padding-top: 50px;
       padding-bottom: 50px;
     }
+
     .swiper-slide {
       padding: 20px 0;
       background-position: center;
       background-size: cover;
       width: 300px;
       height: 300px;
-      h1{
+
+      h1 {
         padding: 20px 0;
         text-align: center;
         font-weight: 600;
@@ -240,7 +288,8 @@
         line-height: 22px;
         color: #FFFFFF;
       }
-      p{
+
+      p {
         font-weight: 500;
         font-size: 13px;
         line-height: 20px;
@@ -248,6 +297,7 @@
         color: #FFFFFF;
       }
     }
+
     .swiper-slide img {
       display: block;
       width: 34%;
@@ -255,40 +305,44 @@
     }
 
 
-  }}
+  }
+}
 
-#name{
-  .name{
+#name {
+  .name {
     @include around;
     padding-top: 8%;
     align-items: flex-start;
 
-    &--there{
-      h1{
+    &--there {
+      h1 {
         @include h1;
         font-size: 36px;
       }
-      p{
+
+      p {
         @include p;
         font-size: 16px;
       }
     }
 
-    &--number{
-      button{
+    &--number {
+      button {
         @include btn;
         margin-top: 8%;
         padding: 10px 35px;
         border: none;
         outline: none;
       }
-      &__tell{
-        h3{
+
+      &__tell {
+        h3 {
           @include h3;
           margin-bottom: -5px;
         }
-        input{
-          padding: 15px 110px  ;
+
+        input {
+          padding: 15px 110px;
           background: rgba(27, 41, 89, 0.4);
           border-radius: 5px;
           color: #FFFFFF;
@@ -298,4 +352,143 @@
     }
   }
 }
+
+
+#footer {
+  .footer {
+    padding-top: 90px;
+    @include df;
+    align-items: flex-start;
+
+    &--our {
+      &__ru {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+
+        h4 {
+          border: 2px solid #ffffff;
+          border-radius: 3px;
+
+          font-weight: 400;
+          font-size: 13px;
+          color: #FFFFFF;
+
+
+        }
+      }
+
+    }
+
+    &--block {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+
+    &--block1 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+
+    &--block4 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+  }
+}
+
+
 

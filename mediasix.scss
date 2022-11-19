@@ -34,6 +34,18 @@
       }
     }
   }
+  #page {
+    .page {
+      &--center {
+        &__image {
+          img {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -109,9 +121,46 @@
       }
     }
   }
+  #footer {
+    .footer {
+        padding-top: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap!important;
+
+    }
+  }
+  #page {
+    .page--center {
+        h1 {
+          font-size: 28px!important;
+        }
+      }
+    }
+
+
 }
 
 @media (max-width: 768px) {
+  #header {
+    .hamburger-menu {
+      display: block;
+    }
+
+    .header {
+      &--logo {
+        &__text {
+          display: none;
+        }
+
+      }
+
+      &--btn {
+        display: none;
+      }
+    }
+  }
 
   #comment {
     .comment {
@@ -148,7 +197,9 @@
 
     }
   }
+
 }
+
 
 @media (max-width: 650px) {
   #title {
@@ -212,10 +263,33 @@
 
     }
   }
+  #page {
+    .page--center {
+      h1 {
+        font-size: 23px !important;
+      }
+
+      p {
+        font-size: 15px !important;
+      }
+    }
+  }
 
 }
 
 @media (max-width: 578px) {
+  #page {
+    .page--center {
+      h1 {
+        font-size: 18px !important;
+      }
+
+      p {
+        font-size: 13px !important;
+      }
+    }
+  }
+
   #comment {
     .comment {
       &--block {
@@ -227,12 +301,14 @@
               font-size: 10px;
 
             }
-            h6{
+
+            h6 {
               font-size: 11px;
             }
           }
-          &--nur{
-            h4{
+
+          &--nur {
+            h4 {
               font-size: 18px;
             }
           }
@@ -283,12 +359,14 @@
               font-size: 8px;
 
             }
-            h6{
+
+            h6 {
               font-size: 11px;
             }
           }
-          &--nur{
-            h4{
+
+          &--nur {
+            h4 {
               font-size: 11px;
             }
           }
@@ -325,9 +403,68 @@
 
     }
   }
+  #footer {
+    .footer {
+      flex-direction: column;
+
+      &--our {
+        display: flex;
+      }
+
+      &--block {
+        padding: 10px 0;
+
+        h2 {
+          font-size: 17px;
+        }
+
+        a {
+          font-size: 14px;
+        }
+
+        h5 {
+          font-size: 14px;
+        }
+      }
+
+      &--block1 {
+        display: none!important;
+      }
+
+      &--block4 {
+        display: none!important;
+      }
+    }
+  }
+  #page {
+    .page--center {
+      h1 {
+        font-size: 17px !important;
+      }
+
+      p {
+        font-size: 11px !important;
+        line-height: 3;
+      }
+    }
+  }
+
 }
 
 @media (max-width: 420px) {
+  #page {
+    .page--center {
+      h1 {
+        font-size: 14px !important;
+        line-height: 24px;
+      }
+
+      p {
+        font-size: 9px !important;
+        line-height: 3;
+      }
+    }
+  }
 
 }
 
@@ -353,24 +490,29 @@
     .comment {
       &--block {
         width: 69%;
-        img{
+
+        img {
           width: 20%;
         }
+
         &__people {
           &--answer {
             p {
               font-size: 8px;
 
             }
-            h6{
+
+            h6 {
               font-size: 8px;
             }
           }
-          &--nur{
-            h4{
+
+          &--nur {
+            h4 {
               font-size: 10px;
             }
-            h5{
+
+            h5 {
               font-size: 8px;
             }
           }
@@ -381,28 +523,32 @@
 
       &--block1 {
         width: 76%;
-        img{
+
+        img {
           width: 20%;
         }
       }
 
       &--block2 {
         width: 76%;
-        img{
+
+        img {
           width: 20%;
         }
       }
 
       &--block3 {
         width: 68%;
-        img{
+
+        img {
           width: 20%;
         }
       }
 
       &--block11 {
         width: 85%;
-        img{
+
+        img {
           width: 20%;
         }
       }
@@ -424,29 +570,35 @@
 @media (max-width: 375px) {
   #comment {
     .comment {
-      h1{
+      h1 {
         font-size: 28px;
       }
+
       &--block {
         width: 72%;
-        img{
+
+        img {
           width: 20%;
         }
+
         &__people {
           &--answer {
             p {
               font-size: 8px;
 
             }
-            h6{
+
+            h6 {
               font-size: 8px;
             }
           }
-          &--nur{
-            h4{
+
+          &--nur {
+            h4 {
               font-size: 10px;
             }
-            h5{
+
+            h5 {
               font-size: 8px;
             }
           }
@@ -457,28 +609,32 @@
 
       &--block1 {
         width: 76%;
-        img{
+
+        img {
           width: 20%;
         }
       }
 
       &--block2 {
         width: 80%;
-        img{
+
+        img {
           width: 20%;
         }
       }
 
       &--block3 {
         width: 68%;
-        img{
+
+        img {
           width: 20%;
         }
       }
 
       &--block11 {
         width: 85%;
-        img{
+
+        img {
           width: 20%;
         }
       }
@@ -495,35 +651,54 @@
 
     }
   }
+  #page {
+    .page--center {
+      h1 {
+        font-size: 12px !important;
+        line-height: 13px!important;
+      }
+
+      p {
+        font-size: 9px !important;
+        line-height: 3;
+      }
+    }
+  }
 
 }
 
 @media (max-width: 360px) {
   #comment {
     .comment {
-      h1{
+      h1 {
         font-size: 28px;
       }
+
       &--block {
         width: 76%;
-        img{
+
+        img {
           width: 20%;
         }
+
         &__people {
           &--answer {
             p {
               font-size: 8px;
 
             }
-            h6{
+
+            h6 {
               font-size: 8px;
             }
           }
-          &--nur{
-            h4{
+
+          &--nur {
+            h4 {
               font-size: 10px;
             }
-            h5{
+
+            h5 {
               font-size: 8px;
             }
           }
@@ -534,28 +709,32 @@
 
       &--block1 {
         width: 83%;
-        img{
+
+        img {
           width: 20%;
         }
       }
 
       &--block2 {
         width: 83%;
-        img{
+
+        img {
           width: 20%;
         }
       }
 
       &--block3 {
         width: 74%;
-        img{
+
+        img {
           width: 20%;
         }
       }
 
       &--block11 {
         width: 85%;
-        img{
+
+        img {
           width: 20%;
         }
       }
@@ -594,29 +773,35 @@
   }
   #comment {
     .comment {
-      h1{
+      h1 {
         font-size: 28px;
       }
+
       &--block {
         width: 86%;
-        img{
+
+        img {
           width: 16%;
         }
+
         &__people {
           &--answer {
             p {
               font-size: 8px;
 
             }
-            h6{
+
+            h6 {
               font-size: 8px;
             }
           }
-          &--nur{
-            h4{
+
+          &--nur {
+            h4 {
               font-size: 10px;
             }
-            h5{
+
+            h5 {
               font-size: 7px;
             }
           }
@@ -627,28 +812,32 @@
 
       &--block1 {
         width: 103%;
-        img{
+
+        img {
           width: 16%;
         }
       }
 
       &--block2 {
         width: 94%;
-        img{
+
+        img {
           width: 16%;
         }
       }
 
       &--block3 {
         width: 85%;
-        img{
+
+        img {
           width: 16%;
         }
       }
 
       &--block11 {
         width: 85%;
-        img{
+
+        img {
           width: 20%;
         }
       }
@@ -665,5 +854,31 @@
 
     }
   }
+  #page {
+    .page {
+      ul {
+        font-size: 17px!important;
+      }
+
+      &--center {
+        h1 {
+          font-size: 11px!important;
+
+        }
+
+        p {
+          font-size: 7px!important;
+          line-height: 2;
+        }
+      }
+
+      &--frame {
+        h1 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
 
 }

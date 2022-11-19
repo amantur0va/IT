@@ -39,43 +39,7 @@
       flex-wrap: wrap;
     }
   }
-  #zayavka {
 
-    .zayavka {
-      &--cap {
-        &__kaif {
-          input {
-            padding: 15px 95px;
-          }
-        }
-      }
-    }
-  }
-  #accor {
-    .accor {
-      &--photo {
-        h1 {
-          font-size: 35px;
-        }
-
-        img {
-          width: 43%;
-        }
-      }
-    }
-  }
-  #platform {
-    .platform {
-      &--block {
-        p {
-          font-size: 18px;
-        }
-        h1{
-          font-size: 37px;
-        }
-      }
-    }
-  }
 }
 
 @media (max-width: 768px) {

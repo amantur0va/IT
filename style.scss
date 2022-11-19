@@ -1,7 +1,11 @@
 @import "mixin";
 @import "variables";
 @import "reset";
+@import "mediaone";
 
+.scroll{
+  overflow: hidden;
+}
 
 #header {
   .hamburger-menu {
@@ -235,82 +239,51 @@
       }
     }
 
-    &--dem {
-      input.accordion {
-        // Hide checkbox
-        appearance: none;
-        left: -100%;
-        position: absolute;
-        background: transparent;
-        //top: -100%;
-
-        // Style the label text
-        & + label {
-          cursor: pointer;
-          font-size: 20px;
-          font-weight: bold;
-          padding-left: $text-padding;
-          color: #FFFFFF;
-
-          // Add the '+' sign
-          span::before {
-            color: #767676;;
-            content: '\002B';
-            position: absolute;
-            right: 0;
-          }
-        }
-
-        // Hide the article if the checkbox is unchecked
-        & ~ article {
-          height: 0;
-          opacity: 0;
-          overflow: hidden;
-          padding: 5px;
-          padding-left: $text-padding;
-          border: 1.5px solid #767676;
-          transition: height 500ms ease,
-          opacity 500ms ease;
-        }
-
-        &:checked {
-          // Add the 'x' sign to each expanded dropdown item
-          & + label span::before {
-            content: '\00D7';
-          }
-
-          // Show the article if the checkbox is checked
-          & ~ article {
-            height: 100%;
-            opacity: 1;
-            color: #9099A3;
-          }
-        }
-      }
-
-      // Main content styling
-      main {
-        height: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      section {
-        border-bottom: 1px solid $accent-color;
-        padding-top: 30px;
-        position: relative;
-
-        &:first-of-type {
-          padding-top: 0;
-        }
-      }
+    .acardion {
+      max-width: 800px;
+      list-style: none;
     }
-  }
+    .acardion__item {
+      position: relative;
+      margin: 20px 10px;
+    }
+    .acardion__item--active .acardion__content {
+      height: 200px;
+      padding: 10px;
+      opacity: 1;
+      color: grey;
+    }
+    .acardion__item--active .acardion__label::before {
+      content: '↑';
+    }
+    .acardion__label {
+      font-size: 16px;
+      position: relative;
+      padding: 10px;
+      color: #fff;
+      background: none;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+    .acardion__label::before {
+      position: absolute;
+      content: ' ↓ ';
+      top: 27%;
+      right: 2%;
+      font-size: 1.5em;
+      transform: translateY(-50%);
+    }
+    .acardion__content {
+      font-size: 18px;
+      font-weight: 400;
+      position: relative;
+      //overflow-y: auto;
+      //overflow: hidden;
+      opacity: 0;
+      height: 0;
+      transition: .5s;
+      background: none
+    }  }
 }
 
 #zayavka {
