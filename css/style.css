@@ -279,11 +279,11 @@ input {
   #follow .follow--me__hidden h4 {
     padding-left: 37px;
   }
-  #follow #platform .platform--block h1 {
+  #platform .platform--block h1 {
     font-size: 25px;
     line-height: 2;
   }
-  #follow #platform .platform--block p {
+  #platform .platform--block p {
     font-size: 10px;
     line-height: 2;
   }
@@ -468,7 +468,6 @@ input {
 #platform .platform--block p {
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
   padding: 20px 0;
@@ -527,7 +526,6 @@ input {
 #latest .latest--article__fly--desc__mon p {
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
   color: #000000;
@@ -612,7 +610,6 @@ input {
 #follow .follow--me__just p {
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
   color: #000000;
@@ -721,7 +718,6 @@ input {
 #zayavka .zayavka--slash p {
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
   font-size: 16px;

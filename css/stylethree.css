@@ -278,11 +278,11 @@ input {
   #follow .follow--me__hidden h4 {
     padding-left: 37px;
   }
-  #follow #platform .platform--block h1 {
+  #platform .platform--block h1 {
     font-size: 25px;
     line-height: 2;
   }
-  #follow #platform .platform--block p {
+  #platform .platform--block p {
     font-size: 10px;
     line-height: 2;
   }
@@ -473,7 +473,6 @@ input {
 #out .out--title__text p {
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
   padding-top: 5%;
@@ -508,7 +507,6 @@ input {
 #certificate .certificate--block p {
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
   text-align: center;
@@ -540,7 +538,6 @@ input {
 #certificate .certificate--title__text--course {
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
   color: #000000;
@@ -609,7 +606,6 @@ input {
 #name .name--there p {
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
   font-size: 16px;
