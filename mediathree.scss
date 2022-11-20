@@ -276,6 +276,17 @@
       }
     }
   }
+  #name{
+    .name{
+      &--there{
+        h1 {
+          font-size: 31px!important;
+
+        }
+      }
+
+    }
+  }
 
 }
 

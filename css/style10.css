@@ -18,26 +18,23 @@
   #platform .platform--block p {
     font-size: 18px;
   }
-  #platform .platform--block h1 {
-    font-size: 45px;
-  }
-  #master .master--java {
+  #platform #master .master--java {
     width: 728px;
   }
-  #master .master--java__block p {
+  #platform #master .master--java__block p {
     font-size: 15px;
   }
-  #course .course--dev {
+  #platform #course .course--dev {
     padding: 0 8px;
   }
-  #school .school--mission p {
+  #platform #school .school--mission p {
     font-size: 17px;
   }
-  #school .school--mission h1 {
+  #platform #school .school--mission h1 {
     font-size: 45px;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 992px) and (max-width: 992px) {
   #course .course--dev {
     padding: 0 8px;
   }
@@ -63,7 +60,39 @@
     font-size: 13px !important;
   }
 }
+@media (max-width: 992px) {
+  #master .master h1 {
+    font-size: 39px !important;
+  }
+}
+@media (max-width: 992px) {
+  #latest .latest--article__fly {
+    width: 100%;
+  }
+  #latest .latest--article__fly img {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  #follow .follow--me__just h2 {
+    font-size: 19px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__just p {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__hidden h4 {
+    padding-left: 37px;
+  }
+  #follow .follow--me__hidden img {
+    width: 100%;
+  }
+}
 @media (max-width: 820px) {
+  #footer .footer {
+    flex-wrap: wrap;
+  }
   #footer .footer {
     flex-wrap: wrap;
   }
@@ -93,8 +122,15 @@
   #footer .footer {
     flex-wrap: wrap;
   }
+  #zayavka .zayavka {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-around;
+  }
   #zayavka .zayavka--cap__kaif input {
-    padding: 15px 95px;
+    width: 178px !important;
+    height: 20px !important;
   }
   #accor .accor--photo h1 {
     font-size: 35px;
@@ -104,6 +140,10 @@
   }
 }
 @media (max-width: 768px) {
+  #name .name--number__tell input {
+    width: 186px !important;
+    height: 25px !important;
+  }
   #name .name--there p {
     font-size: 13px;
   }
@@ -132,10 +172,6 @@
   #platform .platform--block h1 {
     font-size: 35px;
   }
-  #zayavka .zayavka {
-    flex-direction: column;
-    align-items: center;
-  }
   #header .hamburger-menu {
     display: block;
   }
@@ -145,6 +181,12 @@
   #header .header--btn {
     display: none;
   }
+  #platform .platform--block p {
+    font-size: 16px;
+  }
+  #platform .platform--block h1 {
+    font-size: 35px;
+  }
 }
 @media (max-width: 650px) {
   #follow .follow--me {
@@ -152,6 +194,12 @@
   }
   #follow .follow__hidden h4 {
     padding-left: 37px;
+  }
+  #platform .platform--block h1 {
+    font-size: 29px;
+  }
+  #platform .platform--block p {
+    font-size: 15px;
   }
   #platform .platform--block h1 {
     font-size: 29px;
@@ -191,6 +239,12 @@
   }
 }
 @media (max-width: 578px) {
+  #platform .platform--block p {
+    font-size: 14px;
+  }
+  #platform .platform--block h1 {
+    font-size: 26px;
+  }
   #master .master--java {
     width: 323px !important;
   }
@@ -256,82 +310,86 @@
     font-size: 25px;
     line-height: 2;
   }
-  #platform .platform--block #zayavka .zayavka--slash h1 {
+  #zayavka .zayavka--slash h1 {
     font-size: 33px;
   }
-  #platform .platform--block #follow .follow--me__just h2 {
+  #follow .follow--me__just h2 {
     font-size: 20px;
     padding-left: 10px;
   }
-  #platform .platform--block #follow .follow--me__just p {
+  #follow .follow--me__just p {
     font-size: 12px;
     padding-left: 10px;
   }
-  #platform .platform--block #follow .follow--me__hidden h4 {
+  #follow .follow--me__hidden h4 {
     padding-left: 37px;
   }
-  #platform .platform--block #master .master--java {
+  #master .master--java {
     width: 168px !important;
   }
-  #platform .platform--block #master .master--java__block h2 {
+  #master .master--java__block h2 {
     font-size: 12px !important;
   }
-  #platform .platform--block #master .master--java__block p {
+  #master .master--java__block p {
     font-size: 9px !important;
   }
-  #platform .platform--block #master .master h1 {
+  #master .master h1 {
     font-size: 44px;
   }
-  #platform .platform--block #level .level--group h1 {
+  #level .level--group h1 {
     font-size: 41px;
   }
-  #platform .platform--block #level .level--group p {
+  #level .level--group p {
     font-size: 10px;
   }
-  #platform .platform--block #level .level--be {
+  #level .level--be {
     padding: 0 0;
   }
-  #platform .platform--block #level .level--be__become {
+  #level .level--be__become {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  #platform .platform--block #level .level--be__become--under {
+  #level .level--be__become--under {
     flex-direction: column;
   }
-  #platform .platform--block #level .level--be__become--under button {
+  #level .level--be__become--under button {
     margin-bottom: 20px;
   }
-  #platform .platform--block #school .school--mission h1 {
+  #school .school--mission h1 {
     font-size: 35px;
   }
-  #platform .platform--block #school .school--mission p {
+  #school .school--mission p {
     font-size: 15px !important;
   }
-  #platform .platform--block #zayavka .zayavka--slash h1 {
-    font-size: 33px;
-  }
-  #platform .platform--block #follow .follow--me__just h2 {
+  #follow .follow--me__just h2 {
     font-size: 20px;
     padding-left: 10px;
   }
-  #platform .platform--block #follow .follow--me__just p {
+  #follow .follow--me__just p {
     font-size: 12px;
     padding-left: 10px;
   }
-  #platform .platform--block #follow .follow--me__hidden h4 {
+  #follow .follow--me__hidden h4 {
     padding-left: 37px;
   }
-  #platform .platform--block #platform .platform--block h1 {
+  #platform .platform--block h1 {
     font-size: 25px;
     line-height: 2;
   }
-  #platform .platform--block #platform .platform--block p {
+  #platform .platform--block p {
     font-size: 10px;
     line-height: 2;
   }
-  #master .master h1 {
-    font-size: 39px !important;
+}
+@media (max-width: 400px) {
+  #platform .platform--block h1 {
+    font-size: 25px;
+    line-height: 2;
+  }
+  #platform .platform--block p {
+    font-size: 12px;
+    line-height: 2;
   }
   #latest .latest--article__fly {
     width: 100%;
@@ -350,8 +408,32 @@
   #follow .follow--me__hidden h4 {
     padding-left: 37px;
   }
-  #follow .follow--me__hidden img {
-    width: 100%;
+}
+@media (max-width: 375px) {
+  #zayavka .zayavka--slash p {
+    font-size: 14px;
+  }
+  #zayavka .zayavka--cap__kaif input {
+    padding: 15px 74px;
+  }
+  #follow .follow--me__just h2 {
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__just p {
+    font-size: 11px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__hidden h4 {
+    padding-left: 37px;
+  }
+  #platform .platform--block h1 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  #platform .platform--block p {
+    font-size: 11px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 480px) {
@@ -393,8 +475,17 @@
   #follow .follow--me__hidden h4 {
     padding-left: 37px;
   }
-}
-@media (max-width: 400px) {
+  #platform .platform--block h1 {
+    font-size: 25px;
+    line-height: 2;
+  }
+  #platform .platform--block p {
+    font-size: 10px;
+    line-height: 2;
+  }
+  #platform .platform--block p__hidden h4 {
+    padding-left: 37px;
+  }
   #platform .platform--block h1 {
     font-size: 25px;
     line-height: 2;
@@ -406,7 +497,29 @@
   #platform .platform__hidden h4 {
     padding-left: 37px;
   }
+}
+@media (max-width: 320px) {
+  #accor .accor--photo h1 {
+    font-size: 32px;
+  }
+  #follow .follow--me__just h2 {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__just p {
+    font-size: 9px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__hidden h4 {
+    padding-left: 37px;
+  }
   #platform .platform--block h1 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  #platform .platform--block p {
+    font-size: 10px;
+    line-height: 1.5;
     font-size: 25px;
     line-height: 2;
   }
@@ -500,7 +613,8 @@
     font-size: 13px;
   }
   #zayavka .zayavka--cap__kaif input {
-    padding: 15px 53px;
+    width: 161px !important;
+    height: 21px !important;
   }
   #school .school--mission h1 {
     font-size: 32px !important;
@@ -541,13 +655,57 @@
     font-size: 34px;
   }
 }
+@media (max-width: 480px) {
+  #follow .follow--me__just h2 {
+    font-size: 22px;
+    padding-left: 10px;
+  }
+  #follow .follow--me__just p {
+    font-size: 15px;
+  }
+  #follow .follow--me__hidden h4 {
+    padding-left: 37px;
+  }
+  #platform .platform--block h1 {
+    font-size: 21px;
+    line-height: 2;
+  }
+  #platform .platform--block p {
+    font-size: 11px;
+    line-height: 2;
+  }
+  #footer .footer {
+    flex-direction: column;
+  }
+  #footer .footer--our {
+    display: flex;
+  }
+  #footer .footer--block {
+    padding: 10px 0;
+  }
+  #footer .footer--block h2 {
+    font-size: 17px;
+  }
+  #footer .footer--block a {
+    font-size: 14px;
+  }
+  #footer .footer--block h5 {
+    font-size: 14px;
+  }
+  #footer .footer--block1 {
+    display: none;
+  }
+  #footer .footer--block4 {
+    display: none;
+  }
+}
 * {
   padding: 0;
   margin: 0;
 }
 
 .container {
-  width: 90%;
+  width: 1140px;
   margin: 0 auto;
 }
 
@@ -558,7 +716,6 @@ a {
 body {
   font-family: sans-serif;
   background: #044076;
-  background: #164565;
 }
 
 button {
@@ -567,11 +724,11 @@ button {
 }
 
 input {
-  padding: 15px 120px;
   background: rgba(27, 41, 89, 0.4);
   border-radius: 15px;
   border: none;
   outline: none;
+  color: white;
 }
 
 #menu__toggle {
@@ -1002,6 +1159,7 @@ input {
 }
 #footer .footer--block ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block a {
@@ -1019,6 +1177,7 @@ input {
 }
 #footer .footer--block a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block h5 {
@@ -1042,6 +1201,7 @@ input {
 }
 #footer .footer--block1 ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block1 a {
@@ -1059,6 +1219,7 @@ input {
 }
 #footer .footer--block1 a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block1 h5 {
@@ -1082,6 +1243,7 @@ input {
 }
 #footer .footer--block4 ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block4 a {
@@ -1099,6 +1261,7 @@ input {
 }
 #footer .footer--block4 a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block4 h5 {
