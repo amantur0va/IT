@@ -125,3 +125,17 @@
 
 
 }
+@mixin btn3{
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px 25px;
+  font-size: 15px;
+transition: .4s;
+  color: #000000;
+  &:hover{
+    color: #A5A5A5;
+transform: scale(1.1);
+  }
+
+}
