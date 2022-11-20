@@ -209,6 +209,23 @@
 
 }
 @media (max-width: 320px) {
+
+  #page{
+    .page{
+      ul{
+        font-size: 14px;
+      }
+      &--center{
+       h1{
+         font-size: 15px;
+
+       }
+        p{
+          font-size: 14px;
+        }
+      }
+      &--frame{
+        h1{
   #page {
     .page {
       ul {
