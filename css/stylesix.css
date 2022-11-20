@@ -378,7 +378,6 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   font-size: 20px;
 }
 #title .title--pum ul {
@@ -391,7 +390,6 @@ input {
 #comment .comment h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 36px;
   padding: 20px 0;
@@ -447,7 +445,6 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   font-size: 20px;
   line-height: 0;
 }
@@ -486,7 +483,6 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   font-size: 20px;
   line-height: 0;
 }
@@ -526,7 +522,6 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   font-size: 20px;
   line-height: 0;
 }
@@ -565,7 +560,6 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   font-size: 20px;
   line-height: 0;
 }
@@ -604,7 +598,6 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   font-size: 20px;
   line-height: 0;
 }

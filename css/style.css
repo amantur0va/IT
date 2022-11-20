@@ -198,7 +198,6 @@ input {
 #platform .platform--block h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
 }
 #platform .platform--block p {
@@ -336,7 +335,6 @@ input {
 #follow .follow--me__just {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   color: #000000;
   font-size: 16px;
@@ -368,7 +366,6 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   color: #000000;
 }
 
@@ -383,7 +380,6 @@ input {
 #accor .accor--photo h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
 }
 #accor .accor--photo img {
@@ -454,7 +450,6 @@ input {
 #zayavka .zayavka--slash h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #FFFFFF;
   font-size: 36px;
 }
@@ -472,7 +467,6 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   font-size: 16px;
   color: #B5B5B5;
   margin-bottom: -8px;
