@@ -1,0 +1,149 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 1024px) {
+  #course{
+    .course{
+      &--dev{
+        p {
+          font-size: 15px;
+
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #course{
+    .course{
+      &--dev{
+        h1{
+          font-size: 23px;
+        }
+        p {
+          font-size: 14px!important;
+          padding: 5px 0;
+
+        }
+
+      }
+    }
+  }
+
+}
+
+@media (max-width: 820px) {
+  #course{
+    .course{
+
+
+      &--dev{
+        padding: 10px 20px!important;
+        p {
+          font-size: 13px!important;
+
+        }
+
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 650px) {
+}
+
+@media (max-width: 578px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 420px) {
+  #course{
+    .course {
+
+
+      &--dev {
+        width: 335px ;
+
+      }
+
+      &--dev1 {
+        width: 335px;
+      }
+
+      &--dev2 {
+        width: 335px;
+      }
+    }
+
+
+  }
+}
+
+
+@media (max-width: 400px) {
+}
+@media (max-width: 375px) {
+  #course{
+    .course {
+
+
+      &--dev {
+        width: 277px ;
+
+      }
+
+      &--dev1 {
+        width: 277px;
+      }
+
+      &--dev2 {
+        width: 277px;
+      }
+    }
+
+
+  }
+
+}
+@media (max-width: 360px) {
+}
+
+@media (max-width: 320px) {
+  #course{
+    .course {
+
+
+      &--dev {
+        width: 232px!important; ;
+
+      }
+
+      &--dev1 {
+        width: 232px!important;
+        h1{
+          font-size: 22px!important;
+
+        }
+      }
+
+      &--dev2 {
+        width: 232px!important;
+      }
+    }
+
+
+  }
+
+}
