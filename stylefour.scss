@@ -2,6 +2,11 @@
 @import "variables";
 @import "reset";
 
+@import "mediafour";
+
+.scroll{
+  overflow: hidden;
+}
 
 #header {
   .hamburger-menu {
@@ -52,6 +57,7 @@
 #glav{
   .glav{
     padding-top: 100px;
+    padding-top: 110px;
     a{
       color:  #A5A5A5;
     }

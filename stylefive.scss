@@ -1,0 +1,310 @@
+@import "reset";
+@import "mixin";
+@import "variables";
+
+@import "media";
+
+@import "mediafive";
+#header {
+  .hamburger-menu {
+    display: none;
+  }
+  background: rgba(177, 176, 197, 0.11);
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  padding: 20px 0;
+  z-index: 999;
+
+  .header {
+    @include df;
+
+    &--logo {
+      width: 400px;
+      @include df;
+
+      &__text {
+
+        a {
+          @include a;
+        }
+
+      }
+
+    }
+
+    &--btn {
+      @include flex;
+
+      button {
+        @include btn;
+        background: transparent;
+      }
+
+      &__fol {
+        button {
+          @include btn;
+        }
+
+      }
+    }
+  }
+}
+
+
+
+#page {
+  .page {
+
+    padding-top: 90px;
+
+    padding-top: 120px;
+
+
+    &--frame {
+      padding-top: 20px;
+
+      h1 {
+
+        font-size: 28px;
+
+        font-size: 20px;
+
+        font-weight: 400;
+        color: #FFFFFF;
+      }
+    }
+
+    &--block {
+      a {
+        @include a;
+        color: #A5A5A5;
+        padding: 0 0;
+
+        line-height: 2;
+
+      }
+
+      h5 {
+        @include h5;
+        font-weight: 400;
+        font-size: 15px;
+        color: #A5A5A5;
+      }
+    }
+
+    &--center {
+      h1 {
+        @include h1;
+
+        font-size: 38px;
+
+
+      }
+
+      p {
+        @include p;
+
+        font-size: 20px;
+
+      }
+
+      &__image {
+        padding-top: 50px;
+      }
+    }
+
+    ul {
+      padding: 20px 0;
+      font-weight: 500;
+      font-size: 18px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+#lock{
+  .lock{
+    padding-top: 90px;
+    &--comments{
+      h1{
+        @include h1;
+        font-size: 36px;
+        padding: 30px 0;
+
+
+      }
+    }
+    &--block{
+      background: #FFFFFF;
+      border-radius: 5px;
+      display: flex;
+      padding: 20px 0;
+      justify-content: space-around;
+      align-items: flex-start;
+
+      button{
+        width: 280px;
+        height: 42px;
+        background: #034078;
+        color: #FFFFFF;
+        border-radius: 5px;
+        transition: .4s;
+
+        &:hover {
+          transform: scale(1.1);
+          background: transparent;
+          color: #034078;
+          border: 1px solid #000;
+        }
+      }
+      &__title{
+        &--text{
+          display: flex;
+          align-items: center;
+          p{
+            @include p;
+            color: #8D8D8D;
+          }
+       a{
+         @include a;
+         color: #000000
+       }
+        }
+      }
+    }
+  }
+
+}
+
+#footer {
+  .footer {
+    padding-top: 90px;
+    @include df;
+    align-items: flex-start;
+
+    &--our {
+      &__ru {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+
+        h4 {
+          border: 2px solid #ffffff;
+          border-radius: 3px;
+
+          font-weight: 400;
+          font-size: 13px;
+          color: #FFFFFF;
+
+
+        }
+      }
+
+    }
+
+    &--block {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+    &--block1 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+    &--block4 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+  }
+}
+
