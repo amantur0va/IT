@@ -48,6 +48,17 @@
       }
     }
   }
+  #footer {
+    .footer {
+      padding-top: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap!important;
+
+    }
+  }
+
 }
 @media (max-width: 768px) {
 #lock{
@@ -62,6 +73,24 @@
     }
   }
 }
+  #header {
+    .hamburger-menu {
+      display: block;
+    }
+    .header {
+      &--logo {
+        &__text {
+          display: none;
+        }
+
+      }
+
+      &--btn {
+        display: none;
+      }
+    }
+  }
+
 
 }
 @media (max-width: 650px) {
@@ -98,6 +127,39 @@
   }
 }
 @media (max-width: 480px) {
+  #footer {
+    .footer {
+      flex-direction: column;
+
+      &--our {
+        display: flex;
+      }
+
+      &--block {
+        padding: 10px 0;
+
+        h2 {
+          font-size: 17px;
+        }
+
+        a {
+          font-size: 14px;
+        }
+
+        h5 {
+          font-size: 14px;
+        }
+      }
+
+      &--block1 {
+        display: none!important;
+      }
+
+      &--block4 {
+        display: none!important;
+      }
+    }
+  }
 
   #lock{
     .lock{
@@ -147,6 +209,7 @@
 
 }
 @media (max-width: 320px) {
+
   #page{
     .page{
       ul{
@@ -163,6 +226,26 @@
       }
       &--frame{
         h1{
+  #page {
+    .page {
+      ul {
+        font-size: 17px!important;
+      }
+
+      &--center {
+        h1 {
+          font-size: 11px!important;
+
+        }
+
+        p {
+          font-size: 7px!important;
+          line-height: 2;
+        }
+      }
+
+      &--frame {
+        h1 {
           font-size: 16px;
         }
       }

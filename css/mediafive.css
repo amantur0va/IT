@@ -20,6 +20,15 @@
   #lock .lock--block__title h1 {
     font-size: 16px;
   }
+  #header .hamburger-menu {
+    display: block;
+  }
+  #header .header--logo__text {
+    display: none;
+  }
+  #header .header--btn {
+    display: none;
+  }
 }
 @media (max-width: 650px) {
   #lock .lock .lock--block button {
@@ -87,4 +96,4 @@
   }
 }
 
-/*# sourceMappingURL=mediafive.css.map */
+
