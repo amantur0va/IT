@@ -1,0 +1,376 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  #for {
+    .for {
+      &--fooor {
+        width: 87% !important;
+      }
+    }
+  }
+  #clock {
+    .clock {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+
+  #for {
+    .for {
+      &--fooor {
+        width: 95% !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  #process {
+    .process {
+      &--learn {
+        flex-wrap: wrap;
+      }
+
+
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  #header {
+    .hamburger-menu {
+      display: block;
+    }
+
+    .header {
+      &--logo {
+        &__text {
+          display: none;
+        }
+
+      }
+
+      &--btn {
+        display: none;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 650px) {
+  #study {
+    .study {
+      h1 {
+        font-size: 16px !important;
+      }
+    }
+  }
+  #each {
+    .each {
+      &--party {
+        p {
+          width: 95% !important;
+        }
+      }
+    }
+  }
+  #leader {
+    .leader {
+      &--rr {
+        flex-direction: column;
+      }
+    }
+  }
+  #for {
+    .for {
+      &--fooor {
+        flex-direction: column !important;
+      }
+
+      &--you {
+        padding: 18px 0 !important;
+      }
+    }
+  }
+  #dev {
+    .dev {
+      &--title {
+        &__text {
+          p {
+            font-size: 17px !important;
+            width: 85% !important;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 578px) {
+
+  #dev {
+    .dev {
+      &--title {
+        flex-direction: column !important;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 480px) {
+  #each {
+    .each {
+      &--party {
+        p {
+          font-size: 16px !important;
+
+        }
+      }
+
+      &--day {
+        h1 {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+  #study {
+    .study {
+      h1 {
+        font-size: 12px !important;
+      }
+
+    }
+  }
+  #for {
+    .for {
+      &--you {
+        ul {
+          font-size: 17px !important;
+          padding: 10px 0 !important;
+        }
+      }
+
+      &--fooor {
+        &__tochki {
+          ul {
+            font-size: 18px !important;
+          }
+        }
+      }
+    }
+  }
+  #leader {
+    .leader {
+      &--rr {
+        &__man {
+          width: 96% !important;
+
+          &--mas {
+            p {
+              font-size: 17px !important;
+            }
+
+            h4 {
+              font-size: 17px !important;
+            }
+
+            span {
+              font-size: 17px !important;
+            }
+
+            h1 {
+              font-size: 30px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      flex-direction: column;
+
+      &--our {
+        display: flex;
+      }
+
+      &--block {
+        padding: 10px 0;
+
+        h2 {
+          font-size: 17px;
+        }
+
+        a {
+          font-size: 14px;
+        }
+
+        h5 {
+          font-size: 14px;
+        }
+      }
+
+      &--block1 {
+        display: none;
+      }
+
+      &--block4 {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  #study {
+    .study {
+      &--bye {
+        button {
+          margin: 10px 0 !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #leader {
+    .leader {
+      &--rr {
+        &__man {
+
+
+          &--mas {
+            p {
+              font-size: 17px !important;
+              width: 130% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #study {
+    .study {
+      &--bye {
+        button {
+          margin: 10px 0 !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #process {
+    .process {
+      h1 {
+        font-size: 32px !important;
+      }
+    }
+  }
+  #study {
+    .study {
+      &--bye {
+        button {
+          margin: 10px 0 !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  #for {
+    .for {
+      &--you {
+        font-size: 15px !important;
+        padding: 9px 0 !important;
+        margin-left: 10px !important;
+      }
+
+      &--fooor {
+        padding-left: 10px !important;
+      }
+    }
+  }
+  #study {
+    .study {
+      &--bye {
+        button {
+          margin: 10px 0 !important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 320px) {
+  #for {
+    .for {
+      &--you {
+        font-size: 15px !important;
+        padding: 9px 0 !important;
+        margin-left: 10px !important;
+      }
+    }
+  }
+  #study {
+    .study {
+      &--bye {
+        button {
+          margin: 10px 0 !important;
+        }
+      }
+    }
+  }
+  #dev {
+    .dev {
+      &--block {
+        a {
+          display: none;
+        }
+      }
+
+      &--title {
+        &__text {
+          h1 {
+            font-size: 20px !important;
+          }
+
+          p {
+            font-size: 13px !important;
+            width: 119% !important;
+          }
+        }
+      }
+    }
+  }
+  #process {
+
+    .process {
+      h1 {
+        font-size: 29px !important;
+
+      }
+    }
+
+  }
+}

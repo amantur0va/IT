@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+  #header .hamburger-menu {
+    display: block;
+  }
+  #header .header--logo__text {
+    display: none;
+  }
+  #header .header--btn {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  #out .out--title__text p {
+    font-size: 14px;
+  }
+  #certificate .certificate--title {
+    width: 90% !important;
+  }
+  #name .name {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  #out .out--title__text p {
+    font-size: 10px !important;
+  }
+  #certificate .certificate--title {
+    width: 413px !important;
+    height: 356.64px !important;
+  }
+  #certificate .certificate--title img {
+    width: 100%;
+    height: 86px;
+  }
+  #footer .footer {
+    flex-direction: column;
+  }
+  #footer .footer--our {
+    display: flex;
+  }
+  #footer .footer--block {
+    padding: 10px 0;
+  }
+  #footer .footer--block h2 {
+    font-size: 17px;
+  }
+  #footer .footer--block a {
+    font-size: 14px;
+  }
+  #footer .footer--block h5 {
+    font-size: 14px;
+  }
+  #footer .footer--block1 {
+    display: none;
+  }
+  #footer .footer--block4 {
+    display: none;
+  }
+  #students .students--block h1 {
+    font-size: 39px !important;
+  }
+}
+@media (max-width: 420px) {
+  #out .out--title__text h1 {
+    font-size: 29px !important;
+  }
+  #out .out--title__text p {
+    font-size: 9px !important;
+  }
+  #certificate .certificate--title {
+    width: 386px !important;
+    height: 369.64px !important;
+  }
+  #certificate .certificate--title img {
+    height: 81px;
+  }
+  #name .name--number__tell input {
+    padding: 17px 92px !important;
+  }
+}
+@media (max-width: 400px) {
+  #certificate .certificate--title {
+    width: 344px !important;
+    height: 352.64px !important;
+  }
+  #certificate .certificate--title img {
+    height: 72px;
+  }
+  #students .students--block H1 {
+    font-size: 32px !important;
+  }
+}
+@media (max-width: 360px) {
+  #certificate .certificate--title {
+    width: 314px !important;
+    height: 347.64px !important;
+  }
+  #certificate .certificate--title img {
+    height: 69px;
+  }
+  #name .name--number__tell input {
+    padding: 16px 62px !important;
+  }
+}
+@media (max-width: 320px) {
+  #out .out--title__text p {
+    font-size: 13px !important;
+  }
+  #certificate .certificate--block h1 {
+    font-size: 25px !important;
+  }
+  #certificate .certificate--title {
+    width: 273px !important;
+    height: 316.64px !important;
+  }
+  #certificate .certificate--title img {
+    height: 57px;
+  }
+  #certificate .certificate--title__text h1 {
+    font-size: 22.2571px !important;
+  }
+  #students .students--block h1 {
+    font-size: 28px !important;
+  }
+  #name .name--there h1 {
+    font-size: 31px !important;
+  }
+}
+
+/*# sourceMappingURL=mediathree.css.map */

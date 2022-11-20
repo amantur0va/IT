@@ -1,0 +1,578 @@
+@import "media";
+@import "variables";
+@import "mixin";
+@import "reset";
+
+#header {
+  .hamburger-menu {
+    display: none;
+  }
+  background: rgba(177, 176, 197, 0.11);
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  padding: 20px 0;
+  z-index: 999;
+
+  .header {
+    @include df;
+
+    &--logo {
+      width: 400px;
+      @include df;
+
+      &__text {
+
+        a {
+          @include a;
+        }
+
+      }
+
+    }
+
+    &--btn {
+      @include flex;
+
+      button {
+        @include btn;
+        background: transparent;
+      }
+
+      &__fol {
+        button {
+          @include btn;
+        }
+
+      }
+    }
+  }
+}
+
+
+
+#java {
+  .java {
+    padding-top: 120px;
+
+    &--block {
+      a {
+        @include a;
+        color: #A5A5A5;
+      }
+
+    }
+
+    &--title {
+      @include df;
+      width: 920px;
+
+      &__text {
+        h1 {
+          padding-top: 50px;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          color: #FFFFFF;
+        }
+
+        p {
+          padding-top: 20px;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+
+        button {
+          @include btn;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    &--about {
+
+      &__right {
+        margin-top: -112px;
+
+        p {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+
+          color: #FFFFFF;
+        }
+
+        h1 {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          padding: 10px 0;
+          color: #FFFFFF;
+        }
+
+      }
+
+      &__left {
+        margin-bottom: -90%;
+
+        h3 {
+          padding-top: 70px;
+          font-weight: 400;
+          font-size: 20px;
+          color: #FFFFFF;
+        }
+
+        h4 {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 44px;
+          color: #FFFFFF;
+        }
+      }
+
+    }
+  }
+}
+
+#program {
+  .program {
+    padding-top: 90px;
+
+    &--block {
+      a {
+        @include a;
+        color: #A5A5A5;
+      }
+    }
+
+    &--title {
+      @include df;
+      width: 920px;
+
+      &__text {
+        padding-top: 20px;
+
+        h1 {
+          @include h1;
+          font-size: 36px;
+        }
+
+        p {
+          @include p;
+          width: 630px;
+        }
+      }
+
+
+    }
+
+    &--about {
+      padding-top: 15%;
+
+      &__right {
+        p {
+          @include p;
+          font-weight: 400;
+        }
+
+        h1 {
+          @include h1;
+          font-weight: 400;
+          font-size: 20px;
+        }
+      }
+
+      &__left {
+        h3 {
+          @include p;
+          padding-top: 70px;
+          font-weight: 400;
+        }
+
+        h4 {
+          @include h1;
+          font-weight: 400;
+          font-size: 20px;
+        }
+      }
+    }
+
+    &--file {
+      padding-top: 10%;
+
+      h1 {
+        @include h1;
+        font-size: 20px;
+      }
+
+      ul {
+        padding-top: 30px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+
+      }
+    }
+
+    &--btn {
+      margin: 50px 20px;
+
+      button {
+        @include btn;
+        margin: 0 20px;
+      }
+    }
+  }
+}
+
+#process {
+  .process {
+    @include df;
+    padding-top: 90px;
+
+    &--block {
+      h1 {
+        @include h1;
+        font-weight: 700;
+        font-size: 36px;
+      }
+
+      &__it {
+        margin-top: 20px;
+
+        button {
+          @include btn;
+        }
+
+        &--inp {
+          margin: 20px 0;
+
+          input {
+            border: 1px solid #044076;
+            border-radius: 10px;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+#front {
+  .front {
+    padding-top: 90px;
+
+    &--block {
+      @include center;
+
+    }
+
+    &--text {
+      p {
+        @include p;
+        color: #A5A5A5;
+        text-align: center;
+      }
+
+      h1 {
+        @include h1;
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+      }
+
+      h4 {
+        @include h4;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+#study {
+  h1 {
+    @include h1;
+    font-size: 36px;
+  }
+
+  p {
+    @include p;
+    width: 61%;
+  }
+
+  .study {
+    @include df;
+
+    padding-top: 90px;
+
+    &--block {
+
+      &__title {
+        @include df;
+        padding-top: 20px;
+        width: 107%;
+
+        &--text {
+          width: 300px;
+          height: 300px;
+          background: linear-gradient(180deg, rgba(0, 84, 160, 0.2) 0%, rgba(0, 11, 48, 0.2) 100%);
+          border: 1px solid #0272CE;
+          backdrop-filter: blur(22px);
+          border-radius: 10px;
+
+          h1 {
+            @include h1;
+            padding-top: 10%;
+            text-align: center;
+          }
+
+          h2 {
+            @include h2;
+            text-align: center;
+          }
+
+          p {
+            @include p;
+            width: 268px;
+            padding-left: 8%;
+          }
+        }
+      }
+
+    }
+
+    &--about {
+      padding: 50px 5%;
+      background: #FFFFFF;
+      border-radius: 10px;
+
+      h3 {
+        padding-top: 10%;
+        text-align: center;
+        width: 319px;
+      }
+
+      h1 {
+        padding: 20px 20px;
+        color: black;
+      }
+
+      p {
+        width: 263px;
+        text-align: center;
+        font-size: 16px;
+        color: #000000;
+      }
+
+      button {
+        @include btn;
+      }
+    }
+  }
+}
+
+#come {
+  .come {
+    padding-top: 90px;
+
+    &--block {
+      p {
+        @include p;
+        color: #A5A5A5;
+      }
+
+      h1 {
+        @include h1;
+        font-size: 36px;
+      }
+    }
+
+    .acardion {
+      padding-top: 50px;
+      max-width: 800px;
+      list-style: none;
+    }
+    .acardion__item {
+      position: relative;
+      margin: 20px 10px;
+    }
+    .acardion__item--active .acardion__content {
+      height: 200px;
+      padding: 10px;
+      opacity: 1;
+      color: grey;
+    }
+    .acardion__item--active .acardion__label::before {
+      content: '↑';
+    }
+    .acardion__label {
+      font-size: 16px;
+      position: relative;
+      padding: 10px;
+      color: #fff;
+      background: none;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+    .acardion__label::before {
+      position: absolute;
+      content: ' ↓ ';
+      top: 27%;
+      right: 2%;
+      font-size: 1.5em;
+      transform: translateY(-50%);
+    }
+    .acardion__content {
+      font-size: 18px;
+      font-weight: 400;
+      position: relative;
+      //overflow-y: auto;
+      //overflow: hidden;
+      opacity: 0;
+      height: 0;
+      transition: .5s;
+      background: none
+    }  }
+
+
+
+}
+
+#footer {
+  .footer {
+    padding-top: 90px;
+    @include df;
+    align-items: flex-start;
+
+    &--our {
+      &__ru {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+
+        h4 {
+          border: 2px solid #ffffff;
+          border-radius: 3px;
+
+          font-weight: 400;
+          font-size: 13px;
+          color: #FFFFFF;
+
+
+        }
+      }
+
+    }
+
+    &--block {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+    &--block1 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+    &--block4 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+  }
+}
+
+
