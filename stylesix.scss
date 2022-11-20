@@ -1,6 +1,7 @@
 @import "mixin";
 @import "variables";
 @import "reset";
+@import "media";
 @import "mediasix";
 @import "mediaone";
 
@@ -386,6 +387,7 @@
 }
 
 
+
 #latest {
   padding-top: 100px;
 
@@ -463,6 +465,7 @@
     }
   }
 }
+
 
 
 

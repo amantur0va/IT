@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 90%;
+  width: 1140px;
   margin: 0 auto;
 }
 
@@ -16,7 +16,6 @@ a {
 body {
   font-family: sans-serif;
   background: #044076;
-  background: #164565;
 }
 
 button {
@@ -30,6 +29,7 @@ input {
   border-radius: 15px;
   border: none;
   outline: none;
+  color: white;
 }
 
 #menu__toggle {
@@ -634,7 +634,6 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   color: #000000;
 }
 
@@ -726,10 +725,9 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
-  padding: 10px 0;
   font-size: 16px;
   color: #B5B5B5;
-  margin-bottom: -8px;
+  margin-bottom: -2px;
 }
 #zayavka .zayavka--cap__kaif img {
   position: absolute;
@@ -740,6 +738,7 @@ input {
   padding: 15px 120px;
   background: rgba(27, 41, 89, 0.4);
   border-radius: 15px;
+  color: white;
 }
 #zayavka .zayavka--cap__text button {
   font-weight: 500;
@@ -792,6 +791,7 @@ input {
 }
 #footer .footer--block ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block a {
@@ -809,6 +809,7 @@ input {
 }
 #footer .footer--block a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block h5 {
@@ -832,6 +833,7 @@ input {
 }
 #footer .footer--block1 ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block1 a {
@@ -849,6 +851,7 @@ input {
 }
 #footer .footer--block1 a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block1 h5 {
@@ -872,6 +875,7 @@ input {
 }
 #footer .footer--block4 ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block4 a {
@@ -889,6 +893,7 @@ input {
 }
 #footer .footer--block4 a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block4 h5 {
