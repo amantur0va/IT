@@ -257,7 +257,7 @@ input {
 }
 @media (max-width: 768px) {
   #name .name--number__tell input {
-    width: 186px !important;
+    width: 156px !important;
     height: 25px !important;
   }
   #name .name--there p {
