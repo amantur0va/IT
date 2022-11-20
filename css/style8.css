@@ -809,6 +809,36 @@ input {
     margin: 44px 64px !important;
   }
 }
+@media (max-width: 400px) {
+  #page .page ul {
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 68px;
+  }
+  #page .page--frame h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 50%;
+    margin-left: 49px;
+  }
+}
+@media (max-width: 320px) {
+  #react .react--lesson__youtube--we2 {
+    width: 364px !important;
+    margin: 5% 17px !important;
+  }
+  #react .react--lesson__youtube--we1 {
+    margin-top: 26px;
+    margin-left: 20px;
+  }
+}
+.scroll {
+  overflow: hidden;
+}
+
 #header {
   background: rgba(177, 176, 197, 0.11);
   position: fixed;
@@ -882,6 +912,9 @@ input {
 
 #react .react {
   padding-top: 15%;
+}
+#react .react a {
+  color: #A5A5A5;
 }
 #react .react--front {
   padding-top: 60px;

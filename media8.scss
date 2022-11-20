@@ -262,6 +262,27 @@
 }
 
 @media (max-width: 400px) {
+  #page{
+    .page{
+   ul {
+        padding: 20px 0;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-left: 68px;
+      }
+      &--frame{
+        h1 {
+          font-size: 20px;
+          font-weight: 400;
+          color: #FFFFFF;
+          width: 50%;
+          margin-left: 49px;
+        }
+
+      }
+      }
+  }
 }
 
 @media (max-width: 375px) {
@@ -271,4 +292,21 @@
 }
 
 @media (max-width: 320px) {
+  #react {
+    .react{
+      &--lesson{
+        &__youtube{
+          &--we2 {
+            width: 364px !important;
+            margin: 5% 17px!important;
+          }
+          &--we1 {
+            margin-top: 26px;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+
+  }
 }

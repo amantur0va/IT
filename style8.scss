@@ -4,6 +4,11 @@
 @import "variables";
 @import "media8";
 
+
+.scroll{
+  overflow: hidden;
+}
+
 #header {
   .hamburger-menu {
     display: none;
@@ -52,6 +57,9 @@
 
 #react {
   .react {
+    a{
+      color: #A5A5A5;
+    }
     padding-top: 15%;
     &--front {
       padding-top: 60px;
