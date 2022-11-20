@@ -1336,7 +1336,9 @@ input {
   margin-bottom: -4px;
 }
 #name .name--number__tell input {
-  padding: 20px 119px;
+  width: 370px;
+  padding-left: 10px;
+  height: 50px;
   background: rgba(27, 41, 89, 0.4);
   border-radius: 5px;
   color: #FFFFFF;
