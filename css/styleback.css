@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: #41586b;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  padding: 10px 65px;
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+#uxui {
+  padding-top: 100px;
+}
+#uxui .uxui {
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#uxui .uxui--block h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+}
+#uxui .uxui--block p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #000000;
+}
+#uxui .uxui--block__desing h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+}
+#uxui .uxui--block__desing p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #000000;
+}
+#uxui .uxui--block__what h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+}
+#uxui .uxui--block__what h2 {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+}
+
+/*# sourceMappingURL=styleback.css.map */
