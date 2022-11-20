@@ -113,6 +113,7 @@ input {
   background-color: #CFD8DC;
 }
 
+
 @media (max-width: 1440px) {
   .container {
     width: 90%;
@@ -189,6 +190,7 @@ input {
   overflow: hidden;
 }
 
+
 #header {
   background: rgba(177, 176, 197, 0.11);
   position: fixed;
@@ -239,9 +241,13 @@ input {
 #header .header--btn button:hover {
   transform: scale(1.1);
   background: transparent;
+  color: #034078;
+  border: 1px solid #000;
+
   color: #000000;
   font-weight: 600;
   border: none;
+
 }
 #header .header--btn__fol button {
   font-weight: 500;
@@ -255,6 +261,14 @@ input {
 #header .header--btn__fol button:hover {
   transform: scale(1.1);
   background: transparent;
+
+  color: #034078;
+  border: 1px solid #000;
+}
+
+#glav .glav {
+  padding-top: 100px;
+
   color: #000000;
   font-weight: 600;
   border: none;
@@ -262,6 +276,7 @@ input {
 
 #glav .glav {
   padding-top: 110px;
+
 }
 #glav .glav a {
   color: #A5A5A5;
@@ -326,9 +341,14 @@ input {
 #latest .latest--article__fly--desc__mon--icon__club button:hover {
   transform: scale(1.1);
   background: transparent;
+
+  color: #034078;
+  border: 1px solid #000;
+
   color: #000000;
   font-weight: 600;
   border: none;
+
 }
 #latest .latest--article__fly--desc__mon--icon__club button:hover {
   border: none;
@@ -356,9 +376,14 @@ input {
 #latest .latest--best button:hover {
   transform: scale(1.1);
   background: transparent;
+
+  color: #034078;
+  border: 1px solid #000;
+
   color: #000000;
   font-weight: 600;
   border: none;
+
 }
 
 #footer {
@@ -395,6 +420,9 @@ input {
 }
 #footer .footer--block ion-icon {
   color: #FFFFFF;
+
+  font-size: 25px;
+
   font-size: 18px;
 }
 #footer .footer--block a {
@@ -412,6 +440,9 @@ input {
 }
 #footer .footer--block a ion-icon {
   color: #FFFFFF;
+
+  font-size: 25px;
+
   margin: 10px 10px;
 }
 #footer .footer--block h5 {
@@ -435,6 +466,9 @@ input {
 }
 #footer .footer--block1 ion-icon {
   color: #FFFFFF;
+
+  font-size: 25px;
+
   font-size: 18px;
 }
 #footer .footer--block1 a {
@@ -452,6 +486,8 @@ input {
 }
 #footer .footer--block1 a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
+
   margin: 10px 10px;
 }
 #footer .footer--block1 h5 {
@@ -475,6 +511,9 @@ input {
 }
 #footer .footer--block4 ion-icon {
   color: #FFFFFF;
+
+  font-size: 25px;
+
   font-size: 18px;
 }
 #footer .footer--block4 a {
@@ -492,6 +531,9 @@ input {
 }
 #footer .footer--block4 a ion-icon {
   color: #FFFFFF;
+
+  font-size: 25px;
+
   margin: 10px 10px;
 }
 #footer .footer--block4 h5 {
@@ -503,4 +545,4 @@ input {
   padding: 10px 0;
 }
 
-/*# sourceMappingURL=stylefour.css.map */
+

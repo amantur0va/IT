@@ -121,6 +121,9 @@
       }
     }
   }
+}
+
+@media (max-width: 768px) {
   #footer {
     .footer {
         padding-top: 90px;
@@ -198,6 +201,7 @@
     }
   }
 
+
 }
 
 
@@ -263,7 +267,6 @@
 
     }
   }
-  #page {
     .page--center {
       h1 {
         font-size: 23px !important;
@@ -301,6 +304,12 @@
               font-size: 10px;
 
             }
+            h6{
+              font-size: 11px;
+            }
+          }
+          &--nur{
+            h4{
 
             h6 {
               font-size: 11px;
@@ -309,7 +318,6 @@
 
           &--nur {
             h4 {
-              font-size: 18px;
             }
           }
 
@@ -359,6 +367,12 @@
               font-size: 8px;
 
             }
+            h6{
+              font-size: 11px;
+            }
+          }
+          &--nur{
+            h4{
 
             h6 {
               font-size: 11px;
@@ -403,6 +417,9 @@
 
     }
   }
+}
+
+@media (max-width: 420px) {
   #footer {
     .footer {
       flex-direction: column;
@@ -490,6 +507,9 @@
     .comment {
       &--block {
         width: 69%;
+        img{
+          width: 20%;
+        }
 
         img {
           width: 20%;
@@ -501,6 +521,15 @@
               font-size: 8px;
 
             }
+            h6{
+              font-size: 8px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 10px;
+            }
+            h5{
 
             h6 {
               font-size: 8px;
@@ -523,6 +552,7 @@
 
       &--block1 {
         width: 76%;
+        img{
 
         img {
           width: 20%;
@@ -531,6 +561,7 @@
 
       &--block2 {
         width: 76%;
+        img{
 
         img {
           width: 20%;
@@ -539,14 +570,12 @@
 
       &--block3 {
         width: 68%;
-
-        img {
-          width: 20%;
         }
       }
 
       &--block11 {
         width: 85%;
+        img{
 
         img {
           width: 20%;
@@ -570,6 +599,14 @@
 @media (max-width: 375px) {
   #comment {
     .comment {
+      h1{
+        font-size: 28px;
+      }
+      &--block {
+        width: 72%;
+        img{
+          width: 20%;
+        }
       h1 {
         font-size: 28px;
       }
@@ -587,6 +624,15 @@
               font-size: 8px;
 
             }
+            h6{
+              font-size: 8px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 10px;
+            }
+            h5{
 
             h6 {
               font-size: 8px;
@@ -609,7 +655,7 @@
 
       &--block1 {
         width: 76%;
-
+        img{
         img {
           width: 20%;
         }
@@ -617,6 +663,7 @@
 
       &--block2 {
         width: 80%;
+        img{
 
         img {
           width: 20%;
@@ -625,6 +672,7 @@
 
       &--block3 {
         width: 68%;
+        img{
 
         img {
           width: 20%;
@@ -633,7 +681,7 @@
 
       &--block11 {
         width: 85%;
-
+        img{
         img {
           width: 20%;
         }
@@ -670,6 +718,14 @@
 @media (max-width: 360px) {
   #comment {
     .comment {
+      h1{
+        font-size: 28px;
+      }
+      &--block {
+        width: 76%;
+        img{
+          width: 20%;
+        }
       h1 {
         font-size: 28px;
       }
@@ -687,6 +743,15 @@
               font-size: 8px;
 
             }
+            h6{
+              font-size: 8px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 10px;
+            }
+            h5{
 
             h6 {
               font-size: 8px;
@@ -709,6 +774,7 @@
 
       &--block1 {
         width: 83%;
+        img{
 
         img {
           width: 20%;
@@ -725,6 +791,7 @@
 
       &--block3 {
         width: 74%;
+        img{
 
         img {
           width: 20%;
@@ -773,6 +840,14 @@
   }
   #comment {
     .comment {
+      h1{
+        font-size: 28px;
+      }
+      &--block {
+        width: 86%;
+        img{
+          width: 16%;
+        }
       h1 {
         font-size: 28px;
       }
@@ -790,6 +865,15 @@
               font-size: 8px;
 
             }
+            h6{
+              font-size: 8px;
+            }
+          }
+          &--nur{
+            h4{
+              font-size: 10px;
+            }
+            h5{
 
             h6 {
               font-size: 8px;
@@ -812,6 +896,7 @@
 
       &--block1 {
         width: 103%;
+        img{
 
         img {
           width: 16%;
@@ -820,6 +905,7 @@
 
       &--block2 {
         width: 94%;
+        img{
 
         img {
           width: 16%;
@@ -828,6 +914,7 @@
 
       &--block3 {
         width: 85%;
+        img{
 
         img {
           width: 16%;
@@ -836,6 +923,7 @@
 
       &--block11 {
         width: 85%;
+        img{
 
         img {
           width: 20%;

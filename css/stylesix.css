@@ -119,6 +119,7 @@ input {
   }
 }
 @media (max-width: 1024px) {
+
   #comment .comment--block1 {
     width: 63%;
   }
@@ -610,6 +611,7 @@ input {
   }
 }
 @media (max-width: 1024px) {
+
   #platform .platform {
     flex-direction: column;
     align-items: center;
@@ -764,11 +766,19 @@ input {
   #follow .follow--me__hidden h4 {
     padding-left: 37px;
   }
+
+  #follow #platform .platform--block h1 {
+    font-size: 25px;
+    line-height: 2;
+  }
+  #follow #platform .platform--block p {
+
   #platform .platform--block h1 {
     font-size: 25px;
     line-height: 2;
   }
   #platform .platform--block p {
+
     font-size: 10px;
     line-height: 2;
   }
@@ -857,6 +867,7 @@ input {
     line-height: 1.5;
   }
 }
+
 #header {
   background: rgba(177, 176, 197, 0.11);
   position: fixed;
@@ -984,6 +995,7 @@ input {
   color: #FFFFFF;
 }
 
+
 #title .title--pum p {
   font-weight: 500;
   font-size: 20px;
@@ -996,7 +1008,9 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
+
   padding: 10px 0;
+
   font-size: 20px;
 }
 #title .title--pum ul {
@@ -1043,9 +1057,13 @@ input {
 #comment .comment--decide__init button:hover {
   transform: scale(1.1);
   background: transparent;
+  color: #034078;
+  border: 1px solid #000;
+
   color: #000000;
   font-weight: 600;
   border: none;
+
 }
 #comment .comment--decide__init button:hover {
   border: none;
@@ -1065,7 +1083,9 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
+
   padding: 10px 0;
+
   font-size: 20px;
   line-height: 0;
 }
@@ -1104,7 +1124,9 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
+
   padding: 10px 0;
+
   font-size: 20px;
   line-height: 0;
 }
@@ -1144,7 +1166,9 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
+
   padding: 10px 0;
+
   font-size: 20px;
   line-height: 0;
 }
@@ -1183,7 +1207,10 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
+
+
   padding: 10px 0;
+
   font-size: 20px;
   line-height: 0;
 }
@@ -1222,7 +1249,9 @@ input {
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFF;
+
   padding: 10px 0;
+
   font-size: 20px;
   line-height: 0;
 }
@@ -1261,6 +1290,10 @@ input {
 #comment .comment button:hover {
   transform: scale(1.1);
   background: transparent;
+
+  color: #034078;
+  border: 1px solid #000;
+
   color: #000000;
   font-weight: 600;
   border: none;
@@ -1494,6 +1527,7 @@ input {
   font-size: 15px;
   color: #FFFFFF;
   padding: 10px 0;
+
 }
 
-/*# sourceMappingURL=stylesix.css.map */
+
