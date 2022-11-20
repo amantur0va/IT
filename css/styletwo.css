@@ -23,7 +23,6 @@ button {
 }
 
 input {
-  padding: 15px 120px;
   background: rgba(27, 41, 89, 0.4);
   border-radius: 15px;
   border: none;
@@ -209,52 +208,57 @@ input {
   #footer .footer {
     flex-wrap: wrap;
   }
-  #zayavka #footer .footer {
+  #footer .footer {
     flex-wrap: wrap;
   }
-  #zayavka #course .course {
+  #course .course {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
   }
-  #zayavka #course .course--dev {
+  #course .course--dev {
     padding: 0 20px;
     margin: 13px;
   }
-  #zayavka #school .school {
+  #school .school {
     padding-top: 50px;
     flex-direction: column;
   }
-  #zayavka #master .master--java {
+  #master .master--java {
     width: 456px;
   }
-  #zayavka #master .master--java__block h2 {
+  #master .master--java__block h2 {
     font-size: 15px;
   }
-  #zayavka #master .master--java__block p {
+  #master .master--java__block p {
     font-size: 17px;
   }
-  #zayavka #footer .footer {
+  #footer .footer {
     flex-wrap: wrap;
   }
-  #zayavka #zayavka .zayavka--cap__kaif input {
-    padding: 15px 95px;
+  #zayavka .zayavka {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-around;
   }
-  #zayavka #accor .accor--photo h1 {
+  #zayavka .zayavka--cap__kaif input {
+    width: 178px !important;
+    height: 20px !important;
+  }
+  #accor .accor--photo h1 {
     font-size: 35px;
   }
-  #zayavka #accor .accor--photo img {
+  #accor .accor--photo img {
     width: 43%;
-  }
-  #zayavka .platform--block p {
-    font-size: 18px;
-  }
-  #zayavka .platform--block h1 {
-    font-size: 37px;
   }
 }
 @media (max-width: 768px) {
+  #name .name--number__tell input {
+    width: 156px !important;
+    height: 25px !important;
+  }
   #name .name--there p {
     font-size: 13px;
   }
@@ -283,10 +287,6 @@ input {
   #platform .platform--block h1 {
     font-size: 35px;
   }
-  #zayavka .zayavka {
-    flex-direction: column;
-    align-items: center;
-  }
   #header .hamburger-menu {
     display: block;
   }
@@ -301,19 +301,6 @@ input {
   }
   #platform .platform--block h1 {
     font-size: 35px;
-  }
-  #zayavka .zayavka {
-    flex-direction: column;
-    align-items: center;
-  }
-  #header .hamburger-menu {
-    display: block;
-  }
-  #header .header--logo__text {
-    display: none;
-  }
-  #header .header--btn {
-    display: none;
   }
 }
 @media (max-width: 650px) {
@@ -373,21 +360,21 @@ input {
   #platform .platform--block h1 {
     font-size: 26px;
   }
-  #platform .platform--block h1 #master .master--java {
+  #master .master--java {
     width: 323px !important;
   }
-  #platform .platform--block h1 #level .level--group p {
+  #level .level--group p {
     font-size: 14px;
   }
-  #platform .platform--block h1 #name .name {
+  #name .name {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #platform .platform--block h1 #name h1 {
+  #name h1 {
     font-size: 26px;
   }
-  #platform .platform--block h1 #name h1 h1 {
+  #name h1 h1 {
     font-size: 26px;
   }
 }
@@ -489,9 +476,6 @@ input {
   }
   #school .school--mission p {
     font-size: 15px !important;
-  }
-  #zayavka .zayavka--slash h1 {
-    font-size: 33px;
   }
   #follow .follow--me__just h2 {
     font-size: 20px;
@@ -630,12 +614,6 @@ input {
   }
 }
 @media (max-width: 320px) {
-  #zayavka .zayavka--slash p {
-    font-size: 13px;
-  }
-  #zayavka .zayavka--cap__kaif input {
-    padding: 15px 53px;
-  }
   #accor .accor--photo h1 {
     font-size: 32px;
   }
@@ -750,7 +728,8 @@ input {
     font-size: 13px;
   }
   #zayavka .zayavka--cap__kaif input {
-    padding: 15px 53px;
+    width: 161px !important;
+    height: 21px !important;
   }
   #school .school--mission h1 {
     font-size: 32px !important;
@@ -1262,8 +1241,10 @@ input {
   margin-bottom: -5px;
 }
 #name .name--number__tell input {
-  padding: 15px 110px;
+  width: 340px;
+  height: 40px;
   background: rgba(27, 41, 89, 0.4);
+  padding-left: 10px;
   border-radius: 5px;
   color: #FFFFFF;
 }

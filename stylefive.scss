@@ -175,6 +175,85 @@
 
 }
 
+#latest {
+  padding-top: 100px;
+
+  .latest {
+    &--article {
+      @include df;
+      flex-wrap: wrap;
+
+      &__fly {
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin: 20px 0;
+
+        &--desc {
+
+          &__mon {
+            padding-left: 15px;
+
+            h5 {
+              @include h5;
+              font-size: 14px;
+              color: #898989;
+              padding: 15px 0;
+            }
+
+            p {
+              @include p;
+              color: #000000;
+              font-size: 16px;
+              font-weight: 600;
+              padding: 10px 5px;
+            }
+
+            &--icon {
+              @include df;
+
+              &__club {
+                button {
+                  margin-left: -24px;
+                  @include btn;
+                  background: transparent;
+                  color: #044176;
+
+                  &:hover {
+                    border: none;
+                  }
+
+                }
+
+
+              }
+
+              &__cloud {
+                h4 {
+                  padding-right: 65px;
+                  font-size: 15px;
+                  color: #044176;
+
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+
+    &--best {
+      @include center;
+
+      button {
+        margin-top: 30px;
+        @include btn;
+      }
+    }
+  }
+}
+
+
 #footer {
   .footer {
     padding-top: 90px;

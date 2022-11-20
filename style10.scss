@@ -1,8 +1,10 @@
-@import "reset";
-@import "mixin";
 @import "variables";
-@import "mediaone";
+@import "mixin";
 @import "media";
+@import "reset";
+@import "media10";
+
+
 
 #header {
   .hamburger-menu {
@@ -50,207 +52,159 @@
   }
 }
 
-#out {
-  .out {
-    &--block {
-      padding-top: 120px;
+
+#course {
+  .course {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &--he {
+      padding-top: 10%;
 
       a {
         @include a;
+
+
         color: #A5A5A5;
       }
     }
 
-    &--title {
-      padding-top: 5%;
+    &--frontend {
+      padding-top: 90px;
+
       @include center;
 
-      &__text {
-        h1 {
-          @include h1;
-          text-align: center;
-        }
-
-        p {
-          @include p;
-          padding-top: 5%;
-          text-align: center;
-        }
+      h1 {
+        @include h1;
+        padding-bottom: 20px;
       }
     }
 
-    &--img {
-      @include evenly;
-      padding-top: 5%;
-
-      &__image {
-        img {
-          width: 90%;
-        }
-      }
-    }
-  }
-}
-
-#certificate {
-  .certificate {
-    @include center;
-    flex-direction: column;
-
-    &--block {
-      padding-top: 10%;
+    &--dev {
+      width: 370px;
+      height: 240px;
+      background: #FFFFFF;
+      padding: 10px 15px;
+      border-radius: 15px;
+      margin: 7px 0;
 
       h1 {
         @include h1;
-        text-align: center;
-      }
-
-      p {
-        @include p;
-        text-align: center;
-      }
-    }
-
-    &--title {
-      width: 679px;
-      height: 440.64px;
-      background: #fff;
-
-      img {
-        width: 100%;
-      }
-
-      hr {
-        margin: 55px;
-        border: 0.346429px solid #000000;
-      }
-
-      &__text {
-        h1 {
-          font-weight: 400;
-          font-size: 33.2571px;
-          text-align: center;
-          color: #000000;
-        }
-
-        p {
-          font-weight: 500;
-          font-size: 12.4714px;
-          text-align: center;
-          color: #000000;
-
-        }
-
-        &--course {
-          @include p;
-          color: #000000;
-          text-align: center;
-
-          hr {
-            margin-right: 66%;
-            border: 0.346429px solid #000000;
-          }
-        }
-      }
-    }
-  }
-}
-
-#students {
-  .students {
-    &--block {
-      h1 {
-        @include h1;
-        padding: 10%;
-        text-align: center;
-      }
-    }
-
-    .swiper {
-      width: 100%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-
-    .swiper-slide {
-      padding: 20px 0;
-      background-position: center;
-      background-size: cover;
-      width: 300px;
-      height: 300px;
-
-      h1 {
-        padding: 20px 0;
-        text-align: center;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
-        color: #FFFFFF;
-      }
-
-      p {
-        font-weight: 500;
-        font-size: 13px;
-        line-height: 20px;
-        text-align: center;
-        color: #FFFFFF;
-
-      }
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 34%;
-      padding-left: 28%;
-    }
-  }
-}
-
-#name {
-  .name {
-    @include around;
-    padding: 10% 0;
-    align-items: flex-start;
-
-    &--there {
-      h1 {
-        @include h1;
-        font-size: 36px;
+        font-size: 24px;
+        color: #000000;
       }
 
       p {
         @include p;
         font-size: 16px;
-      }
-    }
+        color: #000000;
 
-    &--number {
+      }
+
       button {
-        @include btn;
-        margin-top: 8%;
-        padding: 10px 30px;
-        border: none;
-        outline: none;
-      }
+        @include btn2;
+        margin-bottom: 7px;
+        font-weight: 700;
+        background: transparent;
+        color: #000000;
+        border-bottom: 1px solid #000000;
+        flex-direction: column-reverse;
 
-      &__tell {
-        h3 {
-          @include h3;
-          color: #B5B5B5;
-          margin-bottom: -4px;
+        ion-icon {
+          color: #000000;
 
-        }
-
-        input {
-          padding: 20px 119px;
-          background: rgba(27, 41, 89, 0.4);
-          border-radius: 5px;
-          color: #FFFFFF;
         }
       }
     }
+    &--dev1 {
+      width: 370px;
+      height: 240px;
+      background: #FFFFFF;
+      padding: 10px 15px;
+      border-radius: 15px;
+      margin: 7px 0;
+
+
+      h1 {
+        @include h1;
+        font-size: 24px;
+        color: #000000;
+      }
+
+      p {
+        @include p;
+        font-size: 16px;
+        color: #000000;
+
+      }
+
+      button {
+        @include btn2;
+        margin-top: 14%;
+        font-weight: 700;
+        background: transparent;
+        color: #000000;
+        border-bottom: 1px solid #000000;
+        flex-direction: column-reverse;
+
+        ion-icon {
+          text-align: center;
+          justify-content: center;
+
+          color: #000000;
+
+        }
+      }
+    }
+    &--dev2 {
+      width: 370px;
+      height: 240px;
+      background: #FFFFFF;
+      padding: 10px 15px;
+      border-radius: 15px;
+      margin: 7px 0;
+
+
+      h1 {
+        @include h1;
+        font-size: 24px;
+        color: #000000;
+      }
+
+      p {
+        @include p;
+        font-size: 16px;
+        color: #000000;
+
+      }
+
+      button {
+        @include btn2;
+        margin-top: 6%;
+        font-weight: 700;
+        background: transparent;
+        color: #000000;
+        border-bottom: 1px solid #000000;
+        flex-direction: column-reverse;
+
+        ion-icon {
+          text-align: center;
+          justify-content: center;
+
+          color: #000000;
+
+        }
+      }
+    }
+
+
+
   }
 }
+
+
 
 
 #footer {
