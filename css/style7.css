@@ -344,6 +344,7 @@ input {
 }
 #footer .footer--block ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block a {
@@ -361,6 +362,7 @@ input {
 }
 #footer .footer--block a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block h5 {
@@ -384,6 +386,7 @@ input {
 }
 #footer .footer--block1 ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block1 a {
@@ -401,6 +404,7 @@ input {
 }
 #footer .footer--block1 a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block1 h5 {
@@ -424,6 +428,7 @@ input {
 }
 #footer .footer--block4 ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block4 a {
@@ -441,6 +446,7 @@ input {
 }
 #footer .footer--block4 a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block4 h5 {

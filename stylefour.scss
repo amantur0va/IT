@@ -3,7 +3,7 @@
 @import "reset";
 @import "mediafour";
 
-.scroll{
+.scroll {
   overflow: hidden;
 }
 
@@ -11,6 +11,7 @@
   .hamburger-menu {
     display: none;
   }
+
   background: rgba(177, 176, 197, 0.11);
   position: fixed;
   width: 100%;
@@ -22,7 +23,6 @@
     @include df;
 
     &--logo {
-      width: 400px;
       @include df;
 
       &__text {
@@ -53,11 +53,12 @@
   }
 }
 
-#glav{
-  .glav{
+#glav {
+  .glav {
     padding-top: 110px;
-    a{
-      color:  #A5A5A5;
+
+    a {
+      color: #A5A5A5;
     }
   }
 }
@@ -66,16 +67,18 @@
   padding-top: 70px;
 
   .latest {
-    h1{
+    h1 {
       font-weight: 700;
       color: #FFFFFF;
       text-align: center;
 
     }
-    &--article{
+
+    &--article {
       @include df;
       flex-wrap: wrap;
       padding-top: 30px;
+
       &__fly {
         background: #FFFFFF;
         border-radius: 20px;
@@ -146,6 +149,7 @@
 
 #footer {
   padding-top: 100px;
+
   .footer {
 
     @include df;
@@ -189,6 +193,7 @@
         @include a;
         padding: 0 0;
         line-height: 2;
+
         ion-icon {
           @include ion;
           margin: 10px 10px;
@@ -205,6 +210,7 @@
       }
 
     }
+
     &--block1 {
       h2 {
         @include h2;
@@ -223,6 +229,7 @@
         @include a;
         padding: 0 0;
         line-height: 2;
+
         ion-icon {
           @include ion;
           margin: 10px 10px;
@@ -239,6 +246,7 @@
       }
 
     }
+
     &--block4 {
       h2 {
         @include h2;
@@ -257,6 +265,7 @@
         @include a;
         padding: 0 0;
         line-height: 2;
+
         ion-icon {
           @include ion;
           margin: 10px 10px;

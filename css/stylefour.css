@@ -137,6 +137,21 @@ input {
   #footer .footer {
     flex-wrap: wrap;
   }
+  #zayavka .zayavka--cap__kaif input {
+    padding: 15px 95px;
+  }
+  #accor .accor--photo h1 {
+    font-size: 35px;
+  }
+  #accor .accor--photo img {
+    width: 43%;
+  }
+  #platform .platform--block p {
+    font-size: 18px;
+  }
+  #platform .platform--block h1 {
+    font-size: 37px;
+  }
 }
 @media (max-width: 768px) {
   #header .hamburger-menu {
@@ -207,7 +222,6 @@ input {
   justify-content: space-between;
 }
 #header .header--logo {
-  width: 400px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -396,6 +410,7 @@ input {
 }
 #footer .footer--block ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block a {
@@ -413,6 +428,7 @@ input {
 }
 #footer .footer--block a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block h5 {
@@ -436,6 +452,7 @@ input {
 }
 #footer .footer--block1 ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block1 a {
@@ -453,6 +470,7 @@ input {
 }
 #footer .footer--block1 a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block1 h5 {
@@ -476,6 +494,7 @@ input {
 }
 #footer .footer--block4 ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   font-size: 18px;
 }
 #footer .footer--block4 a {
@@ -493,6 +512,7 @@ input {
 }
 #footer .footer--block4 a ion-icon {
   color: #FFFFFF;
+  font-size: 25px;
   margin: 10px 10px;
 }
 #footer .footer--block4 h5 {

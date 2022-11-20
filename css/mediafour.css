@@ -21,6 +21,22 @@
   #footer .footer {
     flex-wrap: wrap;
   }
+  #zayavka .zayavka--cap__kaif input {
+    padding: 15px 95px;
+  }
+  #accor .accor--photo h1 {
+    font-size: 35px;
+  }
+  #accor .accor--photo img {
+    width: 43%;
+  }
+  #platform .platform--block p {
+    font-size: 18px;
+  }
+  #platform .platform--block h1 {
+    font-size: 37px;
+  }
+
 }
 @media (max-width: 768px) {
   #header .hamburger-menu {
@@ -71,4 +87,4 @@
   }
 }
 
-/*# sourceMappingURL=mediafour.css.map */
+

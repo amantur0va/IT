@@ -1,0 +1,606 @@
+@import "media12";
+@import "variables";
+@import "mixin";
+@import "reset";
+@import "media";
+
+#header {
+  .hamburger-menu {
+    display: none;
+  }
+  background: rgba(177, 176, 197, 0.11);
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  padding: 20px 0;
+  z-index: 999;
+
+  .header {
+    @include df;
+
+    &--logo {
+      width: 400px;
+      @include df;
+
+      &__text {
+
+        a {
+          @include a;
+        }
+
+      }
+
+    }
+
+    &--btn {
+      @include flex;
+
+      button {
+        @include btn;
+        background: transparent;
+      }
+
+      &__fol {
+        button {
+          @include btn;
+        }
+
+      }
+    }
+  }
+}
+
+#dev {
+  .dev {
+    padding-top: 100px;
+
+    &--block {
+      a {
+        @include a;
+        color: #A5A5A5;
+        padding: 0 0;
+      }
+    }
+
+    &--title {
+      @include df;
+
+      width: 79%;
+
+      &__text {
+        h1 {
+          padding-top: 50px;
+          @include h1;
+          font-size: 36px;
+
+        }
+
+        p {
+          @include p;
+          font-size: 20px;
+          width: 71%;
+
+        }
+
+        button {
+          @include btn;
+          margin-top: 20px;
+        }
+      }
+
+      &__about {
+        padding-top: 10%;
+
+        &--right {
+
+
+          p {
+            @include p;
+            font-size: 20px;
+          }
+
+          h1 {
+            @include h1;
+            font-size: 20px;
+          }
+        }
+
+        &--left {
+          //margin-bottom: -90%;
+
+          h3 {
+            @include h3;
+            font-size: 20px;
+          }
+
+          h4 {
+            @include h4;
+            font-size: 20px;
+          }
+        }
+      }
+
+    }
+
+  }
+}
+
+#leader {
+
+  .leader {
+    padding-top: 90px;
+
+    &--tim {
+      a {
+        @include a;
+        color: #A5A5A5;
+        padding: 0 0;
+      }
+    }
+
+    &--rr {
+      @include df;
+      width: 79%;
+
+      &__man {
+
+        width: 63%;
+
+        &--mas {
+          h1 {
+            @include h1;
+            font-size: 36px;
+            line-height: 1.5;
+            padding: 15px 0;
+          }
+
+          h4 {
+            @include h4;
+            font-size: 20px;
+            padding: 15px 0;
+            line-height: 1.5;
+          }
+
+          span {
+            font-weight: 400;
+            font-size: 20px;
+            color: #FFFFFF;
+            line-height: 1.5;
+          }
+
+          p {
+            @include p;
+            font-size: 20px;
+            line-height: 1.5;
+          }
+        }
+
+      }
+
+      &__des {
+        &--hot {
+          p {
+            @include p;
+            line-height: 24px;
+            padding: 0 0;
+          }
+
+          h1 {
+            @include h1;
+            font-size: 20px;
+            padding: 0 0;
+          }
+        }
+
+        &--hit {
+
+          h3 {
+            @include h3;
+            font-size: 20px;
+          }
+
+          h4 {
+            @include h4;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+#for {
+  .for {
+    padding-top: 40px;
+
+    &--you {
+      h1 {
+        @include h1;
+        font-size: 20px;
+      }
+
+      ul {
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+    }
+
+    &--foot {
+      padding-top: 40px;
+
+      h1 {
+
+        @include h1;
+        font-size: 20px;
+      }
+    }
+
+    &--fooor {
+      @include start;
+      justify-content: space-between;
+      width: 80%;
+
+      &__tochki {
+        ul {
+          font-weight: 400;
+          font-size: 20px;
+          color: #FFFFFF;
+          padding: 10px 0;
+        }
+
+      }
+
+      &__red {
+        ul {
+          font-weight: 400;
+          font-size: 20px;
+          color: #FFFFFF;
+          padding: 10px 0;
+        }
+      }
+    }
+
+
+  }
+}
+
+#each {
+  .each {
+    padding-top: 50px;
+
+    &--day {
+      h1 {
+        @include h1;
+        font-weight: 600;
+        font-size: 20px;
+      }
+    }
+
+    &--party {
+      p {
+        @include p;
+        font-weight: 400;
+        font-size: 20px;
+        padding: 20px 0;
+        width: 69%;
+      }
+
+    }
+  }
+}
+
+#study {
+  .study {
+    h1 {
+      @include h1;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    &--bye {
+      padding-top: 20px;
+
+      button {
+        @include btn;
+        margin: 0 10px;
+        background: #044076;
+        box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.2), 3px 2px 13px rgba(0, 0, 0, 0.07);
+        border-radius: 10px;
+        padding: 15px 35px;
+      }
+
+      &__nit {
+        @include btn;
+        background: transparent;
+        border: 1px solid #044076;
+
+      }
+    }
+  }
+}
+
+#clock {
+  .clock {
+    @include df;
+
+    &--eldo {
+      padding-top: 90px;
+
+      &__do {
+        text-align: center;
+
+        h1 {
+          @include h1;
+          font-size: 20px;
+        }
+
+        p {
+          @include p;
+          font-size: 20px;
+          //width: 91%;
+          text-align: center;
+        }
+      }
+
+    }
+
+  }
+}
+
+#front {
+  .front {
+    padding-top: 90px;
+
+    &--block {
+      @include center;
+
+    }
+
+    &--text {
+      p {
+        @include p;
+        color: #A5A5A5;
+        text-align: center;
+      }
+
+      h1 {
+        @include h1;
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+      }
+
+      h4 {
+        @include h4;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+
+#process {
+  .process {
+    padding-top: 90px;
+    h1{
+      @include h1;
+      font-size: 36px;
+
+    }
+    &--learn {
+      @include df;
+      padding-top: 30px;
+
+      &__blue {
+        background: linear-gradient(180deg, rgba(0, 84, 160, 0.2) 0%, rgba(0, 11, 48, 0.2) 100%);
+        backdrop-filter: blur(17px);
+        border-radius: 7px;
+        text-align: center;
+        padding: 10px 10px;
+
+        &--blokss {
+          h1 {
+            @include h1;
+          }
+
+          h2 {
+            @include h2;
+          }
+
+          p {
+            @include p;
+            font-size: 15px;
+            width: 195px;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+  }
+}
+
+#we {
+  .we {
+    padding-top: 8%;
+
+    h1 {
+      @include h1;
+      text-align: center;
+    }
+
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      padding: 20px 0;
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+
+      h1 {
+        padding: 20px 0;
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 34%;
+      padding-left: 28%;
+    }
+
+
+  }
+}
+
+
+#footer {
+  .footer {
+    padding-top: 90px;
+    @include df;
+    align-items: flex-start;
+
+    &--our {
+      &__ru {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+
+        h4 {
+          border: 2px solid #ffffff;
+          border-radius: 3px;
+
+          font-weight: 400;
+          font-size: 13px;
+          color: #FFFFFF;
+
+
+        }
+      }
+
+    }
+
+    &--block {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+    &--block1 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+    &--block4 {
+      h2 {
+        @include h2;
+      }
+
+      h3 {
+        @include h3;
+      }
+
+      ion-icon {
+        @include ion;
+        font-size: 18px;
+      }
+
+      a {
+        @include a;
+        padding: 0 0;
+        line-height: 2;
+        ion-icon {
+          @include ion;
+          margin: 10px 10px;
+
+        }
+
+      }
+
+      h5 {
+        @include h5;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+    }
+  }
+}
