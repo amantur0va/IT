@@ -4,7 +4,11 @@
 }
 
 .container {
+
+  width: 90%;
+
   width: 1140px;
+
   margin: 0 auto;
 }
 
@@ -14,7 +18,11 @@ a {
 
 body {
   font-family: sans-serif;
+
+  background: #41586b;
+
   background: #044076;
+
 }
 
 button {
@@ -23,6 +31,21 @@ button {
 }
 
 input {
+
+  padding: 10px 65px;
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+#page .page {
+  padding-top: 90px;
   background: rgba(27, 41, 89, 0.4);
   border-radius: 15px;
   border: none;
@@ -1283,6 +1306,7 @@ input {
 
 #page .page {
   padding-top: 120px;
+
 }
 #page .page--frame {
   padding-top: 20px;
@@ -1307,6 +1331,9 @@ input {
   text-decoration-line: underline;
 }
 #page .page--block h5 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
   font-weight: 400;
   font-size: 15px;
   color: #FFFFFF;
@@ -1317,12 +1344,17 @@ input {
 #page .page--center h1 {
   font-weight: 700;
   font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
   color: #FFFFFF;
   font-size: 38px;
 }
 #page .page--center p {
   font-weight: 500;
   font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 10px 0;
   color: #FFFFFF;
   padding: 10px 0;
   font-size: 20px;
@@ -1343,6 +1375,7 @@ input {
 #lock .lock--comments h1 {
   font-weight: 700;
   font-size: 48px;
+  line-height: 60px;
   color: #FFFFFF;
   font-size: 36px;
   padding: 30px 0;
@@ -1376,6 +1409,7 @@ input {
 #lock .lock--block__title--text p {
   font-weight: 500;
   font-size: 20px;
+  line-height: 25px;
   color: #FFFFFF;
   padding: 10px 0;
   color: #8D8D8D;
@@ -1629,4 +1663,3 @@ input {
   padding: 10px 0;
 }
 
-/*# sourceMappingURL=stylefive.css.map */
